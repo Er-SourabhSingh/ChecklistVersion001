@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="3" parallel="tests">
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+
+    <test name="Checklist test-Chrome">
+        <parameter name="os" value="window"/>
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="testClasses.TC001_ChecklistPluginInstallation"/>
+            <class name="testClasses.TC002_ChecklistBlockClosingDisabled"/>
+            <class name="testClasses.TC003_ChecklistBlockClosingEnabled"/>
+            <class name="testClasses.TC004_CURDOperationWithEditIssuePermission"/>
+            <class name="testClasses.TC005_VerifyWithoutEditPermissionChecklistNotCreated"/>
+            <class name="testClasses.TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue"/>
+            <class name="testClasses.TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist"/>
+            <class name="testClasses.TC008_CreateChecklistTemplateVerifyAndUseInIssuePage"/>
+        </classes>
+    </test>
+
+    <test name="Checklist test-firefox">
+        <parameter name="os" value="window"/>
+        <parameter name="browser" value="firefox"/>
+
+        <classes>
+            <class name="testClasses.TC001_ChecklistPluginInstallation"/>
+            <class name="testClasses.TC002_ChecklistBlockClosingDisabled"/>
+            <class name="testClasses.TC003_ChecklistBlockClosingEnabled"/>
+            <class name="testClasses.TC004_CURDOperationWithEditIssuePermission"/>
+            <class name="testClasses.TC005_VerifyWithoutEditPermissionChecklistNotCreated"/>
+            <class name="testClasses.TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue"/>
+            <class name="testClasses.TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist"/>
+            <class name="testClasses.TC008_CreateChecklistTemplateVerifyAndUseInIssuePage"/>
+        </classes>
+    </test>
+
+    <test name="Checklist test-edge">
+        <parameter name="os" value="window"/>
+        <parameter name="browser" value="edge"/>
+
+        <classes>
+            <class name="testClasses.TC001_ChecklistPluginInstallation"/>
+            <class name="testClasses.TC002_ChecklistBlockClosingDisabled"/>
+            <class name="testClasses.TC003_ChecklistBlockClosingEnabled"/>
+            <class name="testClasses.TC004_CURDOperationWithEditIssuePermission"/>
+            <class name="testClasses.TC005_VerifyWithoutEditPermissionChecklistNotCreated"/>
+            <class name="testClasses.TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue"/>
+            <class name="testClasses.TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist"/>
+            <class name="testClasses.TC008_CreateChecklistTemplateVerifyAndUseInIssuePage"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,1618 @@
+2025-03-01 09:39:36 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sourabh Singh\IdeaProjects\ChecklistV001\crossBrowserTesting.xml
+
+2025-03-01 09:39:41 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:21 - ===== TC005: Verify After closing issue checklist is not modified -Start Execution =====
+2025-03-01 09:39:41 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:28 - Step 1: Login with user who have permission edit issue 
+2025-03-01 09:39:41 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:152 - ===== Login - Start Execution =====
+2025-03-01 09:39:41 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:158 - Step 1: Login with provided credentials
+2025-03-01 09:39:41 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:163 - Login successful for user: john
+2025-03-01 09:39:41 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:168 - === Login Test Completed ===
+2025-03-01 09:39:41 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:31 - Step 2: Go to issue list of a project
+2025-03-01 09:39:43 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:36 - Step 2: Create a issue
+2025-03-01 09:39:43 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:181 - Click on Add new issue btn
+2025-03-01 09:39:44 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:183 - Enter subject for issue
+2025-03-01 09:39:44 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:185 - Click on create btn to create issue
+2025-03-01 09:39:45 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:39 - Step 3: Create 2 Parent checklist
+2025-03-01 09:39:45 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 09:39:46 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:213 - Click add button of Checklist Dropdown
+2025-03-01 09:39:46 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:215 - Enter checklist name in Checklist field
+2025-03-01 09:39:46 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:217 - Click Enter to create checklist
+2025-03-01 09:39:46 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 09:39:47 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:213 - Click add button of Checklist Dropdown
+2025-03-01 09:39:48 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:215 - Enter checklist name in Checklist field
+2025-03-01 09:39:48 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:217 - Click Enter to create checklist
+2025-03-01 09:39:48 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:48 - Step 4: Create SubChecklists in parent
+2025-03-01 09:39:48 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 09:39:49 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 09:39:49 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 09:39:49 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 09:39:50 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 09:39:50 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 09:39:51 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 09:39:51 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 09:39:51 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 09:39:52 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 09:39:52 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 09:39:52 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 09:39:52 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:63 - Step 5: create sub checklist in 2nd parent checklist
+2025-03-01 09:39:52 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 09:39:53 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 09:39:53 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 09:39:53 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 09:40:04 ERROR TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:101 - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='OKyydXTYic']/ancestor::li[contains(@class, 'checklist-li')]//span[text()='raWbk']"}
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [156afe1259244de9cb142e089ed286c6, findElement {value=//span[text()='OKyydXTYic']/ancestor::li[contains(@class, 'checklist-li')]//span[text()='raWbk'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\SOURAB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64444}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64444/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 156afe1259244de9cb142e089ed286c6
+2025-03-01 09:44:19 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sourabh Singh\IdeaProjects\ChecklistV001\crossBrowserTesting.xml
+
+2025-03-01 09:44:24 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:21 - ===== TC005: Verify After closing issue checklist is not modified -Start Execution =====
+2025-03-01 09:44:24 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:28 - Step 1: Login with user who have permission edit issue 
+2025-03-01 09:44:24 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:152 - ===== Login - Start Execution =====
+2025-03-01 09:44:24 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:158 - Step 1: Login with provided credentials
+2025-03-01 09:44:25 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:163 - Login successful for user: john
+2025-03-01 09:44:25 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:168 - === Login Test Completed ===
+2025-03-01 09:44:25 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:31 - Step 2: Go to issue list of a project
+2025-03-01 09:44:27 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:36 - Step 2: Create a issue
+2025-03-01 09:44:27 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:181 - Click on Add new issue btn
+2025-03-01 09:44:27 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:183 - Enter subject for issue
+2025-03-01 09:44:28 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:185 - Click on create btn to create issue
+2025-03-01 09:44:29 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:39 - Step 3: Create 2 Parent checklist
+2025-03-01 09:44:29 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 09:44:30 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:213 - Click add button of Checklist Dropdown
+2025-03-01 09:44:30 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:215 - Enter checklist name in Checklist field
+2025-03-01 09:44:30 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:217 - Click Enter to create checklist
+2025-03-01 09:44:30 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 09:44:31 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:213 - Click add button of Checklist Dropdown
+2025-03-01 09:44:31 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:215 - Enter checklist name in Checklist field
+2025-03-01 09:44:32 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:217 - Click Enter to create checklist
+2025-03-01 09:44:32 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:48 - Step 4: Create SubChecklists in parent
+2025-03-01 09:44:32 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 09:44:32 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 09:44:33 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 09:44:33 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 09:44:33 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 09:44:34 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 09:44:34 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 09:44:35 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 09:44:35 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 09:44:35 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 09:44:36 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 09:44:36 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 09:44:36 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:63 - Step 5: create sub checklist in 2nd parent checklist
+2025-03-01 09:44:36 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 09:44:37 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 09:44:37 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 09:44:38 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 09:44:38 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:69 - step 6: check the parents checkbox
+2025-03-01 09:44:43 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:75 - Step 11: close issue after completing checklist
+2025-03-01 09:44:43 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:193 - Click on edit button on issue detail form of 332
+2025-03-01 09:44:43 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:195 - select closed status
+2025-03-01 09:44:44 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:197 - Click on Submit button
+2025-03-01 09:44:45 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:78 - Step 12: Verifing checkbox threedots are not enabled
+2025-03-01 09:44:47 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:98 - Test passed: Checklist is not editable after closing issue
+2025-03-01 09:58:42 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sourabh Singh\IdeaProjects\ChecklistV001\crossBrowserTesting.xml
+
+2025-03-01 09:58:48 INFO  TC001_ChecklistPluginInstallation:29 - ===== TC001: Verify Checklist Plugin Installation - Start =====
+2025-03-01 09:58:48 INFO  TC001_ChecklistPluginInstallation:152 - ===== Login - Start Execution =====
+2025-03-01 09:58:48 INFO  TC001_ChecklistPluginInstallation:158 - Step 1: Login with provided credentials
+2025-03-01 09:58:49 INFO  TC001_ChecklistPluginInstallation:163 - Login successful for user: admin
+2025-03-01 09:58:49 INFO  TC001_ChecklistPluginInstallation:168 - === Login Test Completed ===
+2025-03-01 09:58:49 INFO  TC001_ChecklistPluginInstallation:106 - Navigating to Administration → Plugins
+2025-03-01 09:58:50 INFO  TC001_ChecklistPluginInstallation:34 - Step 3: Scroll and Verify Plugin
+2025-03-01 09:58:50 INFO  TC001_ChecklistPluginInstallation:39 - ✔ Checklist Plugin is installed successfully.
+2025-03-01 09:58:50 INFO  TC001_ChecklistPluginInstallation:44 - === Checklist Plugin Verification Completed ===
+2025-03-01 09:58:50 INFO  TC001_ChecklistPluginInstallation:50 - ===== Verify Checklist Plugin Description =====
+2025-03-01 09:58:50 INFO  TC001_ChecklistPluginInstallation:56 - Checklist Plugin description is correct.
+2025-03-01 09:58:50 INFO  TC001_ChecklistPluginInstallation:61 - === Checklist Plugin Description Verification Completed ===
+2025-03-01 09:58:50 INFO  TC001_ChecklistPluginInstallation:67 - ===== Verify Knowledge Base Link Navigation =====
+2025-03-01 09:58:56 INFO  TC001_ChecklistPluginInstallation:74 - ✔ Successfully navigated to the Knowledge Base page.
+2025-03-01 09:58:56 INFO  TC001_ChecklistPluginInstallation:79 - === Knowledge Base Link Navigation Test Completed ===
+2025-03-01 09:58:56 INFO  TC001_ChecklistPluginInstallation:85 - ===== Verify Checklist Author Website Navigation =====
+2025-03-01 09:59:01 INFO  TC001_ChecklistPluginInstallation:92 - ✔ Successfully navigated to the Checklist Author's page.
+2025-03-01 09:59:01 INFO  TC001_ChecklistPluginInstallation:97 - === Checklist Author Website Link Navigation Test Completed ===
+2025-03-01 09:59:05 INFO  TC002_ChecklistBlockClosingDisabled:16 - === TC002: Verify Issue will close with or without checklist when BlockIssue is disable - Start Execution ===
+2025-03-01 09:59:05 INFO  TC002_ChecklistBlockClosingDisabled:18 - Step 1: Login as admin
+2025-03-01 09:59:05 INFO  TC002_ChecklistBlockClosingDisabled:152 - ===== Login - Start Execution =====
+2025-03-01 09:59:05 INFO  TC002_ChecklistBlockClosingDisabled:158 - Step 1: Login with provided credentials
+2025-03-01 09:59:06 INFO  TC002_ChecklistBlockClosingDisabled:163 - Login successful for user: admin
+2025-03-01 09:59:06 INFO  TC002_ChecklistBlockClosingDisabled:168 - === Login Test Completed ===
+2025-03-01 09:59:06 INFO  TC002_ChecklistBlockClosingDisabled:21 - Step 2: Navigate to Checklist plugin Configuration
+2025-03-01 09:59:07 INFO  TC002_ChecklistBlockClosingDisabled:27 - Step 3: Disable Block Issue Closing and Click on apply
+2025-03-01 09:59:08 INFO  TC002_ChecklistBlockClosingDisabled:32 - Block issue closing box is unchecked
+2025-03-01 09:59:08 INFO  TC002_ChecklistBlockClosingDisabled:37 - === Configure Checklist Plugin - Disabled ' block issue closing'- Method Executed ===
+2025-03-01 09:59:08 INFO  TC002_ChecklistBlockClosingDisabled:47 - Verify Issue should be closed without Any checklist
+2025-03-01 09:59:08 INFO  TC002_ChecklistBlockClosingDisabled:49 - Step 4: navigate to issue list page of a project
+2025-03-01 09:59:10 INFO  TC002_ChecklistBlockClosingDisabled:54 - Step 5: Create new issue
+2025-03-01 09:59:10 INFO  TC002_ChecklistBlockClosingDisabled:181 - Click on Add new issue btn
+2025-03-01 09:59:11 INFO  TC002_ChecklistBlockClosingDisabled:183 - Enter subject for issue
+2025-03-01 09:59:12 INFO  TC002_ChecklistBlockClosingDisabled:185 - Click on create btn to create issue
+2025-03-01 09:59:12 INFO  TC002_ChecklistBlockClosingDisabled:57 - Step 6: Select Closed status from dropdown and submit form
+2025-03-01 09:59:12 INFO  TC002_ChecklistBlockClosingDisabled:193 - Click on edit button on issue detail form of 333
+2025-03-01 09:59:13 INFO  TC002_ChecklistBlockClosingDisabled:195 - select closed status
+2025-03-01 09:59:14 INFO  TC002_ChecklistBlockClosingDisabled:197 - Click on Submit button
+2025-03-01 09:59:14 INFO  TC002_ChecklistBlockClosingDisabled:59 - Test pass - Issue is successfully closed!
+2025-03-01 09:59:14 INFO  TC002_ChecklistBlockClosingDisabled:65 - === Verify Issue should be closed without Any checklist - execution is completed ===
+2025-03-01 09:59:14 INFO  TC002_ChecklistBlockClosingDisabled:71 - === Verify without checking checklists or sub Checklist issue should be closed ===
+2025-03-01 09:59:14 INFO  TC002_ChecklistBlockClosingDisabled:76 - Step 7: Go to issue list from issue detail page
+2025-03-01 09:59:15 INFO  TC002_ChecklistBlockClosingDisabled:79 - Step 8: Create new issue
+2025-03-01 09:59:15 INFO  TC002_ChecklistBlockClosingDisabled:181 - Click on Add new issue btn
+2025-03-01 09:59:15 INFO  TC002_ChecklistBlockClosingDisabled:183 - Enter subject for issue
+2025-03-01 09:59:16 INFO  TC002_ChecklistBlockClosingDisabled:185 - Click on create btn to create issue
+2025-03-01 09:59:16 INFO  TC002_ChecklistBlockClosingDisabled:82 - Step 9: Create Parent Checklist
+2025-03-01 09:59:16 INFO  TC002_ChecklistBlockClosingDisabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 09:59:17 INFO  TC002_ChecklistBlockClosingDisabled:213 - Click add button of Checklist Dropdown
+2025-03-01 09:59:18 INFO  TC002_ChecklistBlockClosingDisabled:215 - Enter checklist name in Checklist field
+2025-03-01 09:59:18 INFO  TC002_ChecklistBlockClosingDisabled:217 - Click Enter to create checklist
+2025-03-01 09:59:18 INFO  TC002_ChecklistBlockClosingDisabled:86 - XUUdOhumnU: is created
+2025-03-01 09:59:18 INFO  TC002_ChecklistBlockClosingDisabled:88 - Step 10: Enter subchecklist name
+2025-03-01 09:59:18 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 09:59:19 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 09:59:19 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 09:59:19 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 09:59:19 INFO  TC002_ChecklistBlockClosingDisabled:92 - Step 11: Select Closed status from dropdown and submit form
+2025-03-01 09:59:19 INFO  TC002_ChecklistBlockClosingDisabled:193 - Click on edit button on issue detail form of 334
+2025-03-01 09:59:20 INFO  TC002_ChecklistBlockClosingDisabled:195 - select closed status
+2025-03-01 09:59:20 INFO  TC002_ChecklistBlockClosingDisabled:197 - Click on Submit button
+2025-03-01 09:59:21 INFO  TC002_ChecklistBlockClosingDisabled:94 - Test pass Issue is successfully closed!
+2025-03-01 09:59:21 INFO  TC002_ChecklistBlockClosingDisabled:99 - === Verify without checking checklists or sub Checklist issue should be closed - Execution is completed ===
+2025-03-01 09:59:21 INFO  TC002_ChecklistBlockClosingDisabled:105 - === Verify that the issue closes after completing the checklist when block issue closing disabled ===
+2025-03-01 09:59:21 INFO  TC002_ChecklistBlockClosingDisabled:108 - Step 11: Navigate to the issue list from the issue detail page
+2025-03-01 09:59:22 INFO  TC002_ChecklistBlockClosingDisabled:111 - Step 12: Create a issue
+2025-03-01 09:59:22 INFO  TC002_ChecklistBlockClosingDisabled:181 - Click on Add new issue btn
+2025-03-01 09:59:22 INFO  TC002_ChecklistBlockClosingDisabled:183 - Enter subject for issue
+2025-03-01 09:59:23 INFO  TC002_ChecklistBlockClosingDisabled:185 - Click on create btn to create issue
+2025-03-01 09:59:24 INFO  TC002_ChecklistBlockClosingDisabled:114 - Step 13: Create parent Checklists
+2025-03-01 09:59:24 INFO  TC002_ChecklistBlockClosingDisabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 09:59:24 INFO  TC002_ChecklistBlockClosingDisabled:213 - Click add button of Checklist Dropdown
+2025-03-01 09:59:25 INFO  TC002_ChecklistBlockClosingDisabled:215 - Enter checklist name in Checklist field
+2025-03-01 09:59:25 INFO  TC002_ChecklistBlockClosingDisabled:217 - Click Enter to create checklist
+2025-03-01 09:59:25 INFO  TC002_ChecklistBlockClosingDisabled:118 - Parent Checklist 'DrgGthTEGN' is created
+2025-03-01 09:59:25 INFO  TC002_ChecklistBlockClosingDisabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 09:59:26 INFO  TC002_ChecklistBlockClosingDisabled:213 - Click add button of Checklist Dropdown
+2025-03-01 09:59:26 INFO  TC002_ChecklistBlockClosingDisabled:215 - Enter checklist name in Checklist field
+2025-03-01 09:59:26 INFO  TC002_ChecklistBlockClosingDisabled:217 - Click Enter to create checklist
+2025-03-01 09:59:27 INFO  TC002_ChecklistBlockClosingDisabled:123 - Parent Checklist 'EPBxKSOpVRpHYM' is created
+2025-03-01 09:59:30 INFO  TC002_ChecklistBlockClosingDisabled:127 - Step 14: add subchecklists in 1st parentchecklist
+2025-03-01 09:59:30 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 09:59:30 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 09:59:31 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 09:59:31 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 09:59:31 INFO  TC002_ChecklistBlockClosingDisabled:131 - SubChecklist1 'XabIX' is created
+2025-03-01 09:59:31 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 09:59:32 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 09:59:32 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 09:59:32 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 09:59:33 INFO  TC002_ChecklistBlockClosingDisabled:135 - SubChecklist2 'fRxNc' is created
+2025-03-01 09:59:33 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 09:59:33 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 09:59:34 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 09:59:34 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 09:59:34 INFO  TC002_ChecklistBlockClosingDisabled:139 - SubChecklist3 'KBNLs' is created
+2025-03-01 09:59:37 INFO  TC002_ChecklistBlockClosingDisabled:143 - check the checkboxes of parent checklists
+2025-03-01 09:59:38 INFO  TC002_ChecklistBlockClosingDisabled:146 - Check parent and its sub checlist checkboxes are checked
+2025-03-01 09:59:38 INFO  TC002_ChecklistBlockClosingDisabled:150 - all checboxes in checklist section are checked
+2025-03-01 09:59:38 INFO  TC002_ChecklistBlockClosingDisabled:153 - Step 15: Verify that the issue is closed
+2025-03-01 09:59:38 INFO  TC002_ChecklistBlockClosingDisabled:193 - Click on edit button on issue detail form of 335
+2025-03-01 09:59:38 INFO  TC002_ChecklistBlockClosingDisabled:195 - select closed status
+2025-03-01 09:59:39 INFO  TC002_ChecklistBlockClosingDisabled:197 - Click on Submit button
+2025-03-01 09:59:40 INFO  TC002_ChecklistBlockClosingDisabled:156 - Test Passed: Issue is closed after checking all checklist items.
+2025-03-01 09:59:40 INFO  TC002_ChecklistBlockClosingDisabled:163 - === Verifying issue closes after completing the checklist when block issue closing disabled
+2025-03-01 09:59:40 INFO  TC002_ChecklistBlockClosingDisabled:164 - ===== TC002: Verify Issue will close with or without checklist when BlockIssue is disable - Completed Execution =====
+2025-03-01 09:59:44 INFO  TC003_ChecklistBlockClosingEnabled:15 - ===== TC003: Verify Issue cannot close if any checklist item is unchecked when Block Issue is enabled - Start Execution =====
+2025-03-01 09:59:44 INFO  TC003_ChecklistBlockClosingEnabled:24 - Step 1: Login as admin
+2025-03-01 09:59:44 INFO  TC003_ChecklistBlockClosingEnabled:152 - ===== Login - Start Execution =====
+2025-03-01 09:59:44 INFO  TC003_ChecklistBlockClosingEnabled:158 - Step 1: Login with provided credentials
+2025-03-01 09:59:45 INFO  TC003_ChecklistBlockClosingEnabled:163 - Login successful for user: admin
+2025-03-01 09:59:45 INFO  TC003_ChecklistBlockClosingEnabled:168 - === Login Test Completed ===
+2025-03-01 09:59:45 INFO  TC003_ChecklistBlockClosingEnabled:27 - Step 2: Navigate to Checklist plugin → Configuration
+2025-03-01 09:59:47 INFO  TC003_ChecklistBlockClosingEnabled:34 - Step 3: Enable Block Issue Closing and Click on apply
+2025-03-01 09:59:47 INFO  TC003_ChecklistBlockClosingEnabled:43 - === Configure Checklist Plugin - Enabled 'Block Issue Closing' - Method Executed ===
+2025-03-01 09:59:47 INFO  TC003_ChecklistBlockClosingEnabled:49 - === Verify issue should close if no checklist is Created ===
+2025-03-01 09:59:47 INFO  TC003_ChecklistBlockClosingEnabled:61 - Step 4: Navigate to the issue list of a project
+2025-03-01 09:59:49 INFO  TC003_ChecklistBlockClosingEnabled:68 - Step 6: Enter Subject in issue form
+2025-03-01 09:59:49 INFO  TC003_ChecklistBlockClosingEnabled:181 - Click on Add new issue btn
+2025-03-01 09:59:50 INFO  TC003_ChecklistBlockClosingEnabled:183 - Enter subject for issue
+2025-03-01 09:59:50 INFO  TC003_ChecklistBlockClosingEnabled:185 - Click on create btn to create issue
+2025-03-01 09:59:51 INFO  TC003_ChecklistBlockClosingEnabled:73 - Step 4: Attempt to close the issue
+2025-03-01 09:59:51 INFO  TC003_ChecklistBlockClosingEnabled:193 - Click on edit button on issue detail form of 336
+2025-03-01 09:59:52 INFO  TC003_ChecklistBlockClosingEnabled:195 - select closed status
+2025-03-01 09:59:53 INFO  TC003_ChecklistBlockClosingEnabled:197 - Click on Submit button
+2025-03-01 09:59:53 INFO  TC003_ChecklistBlockClosingEnabled:75 - Test Passed: Issue can be closed if NO checklist is created.
+2025-03-01 09:59:53 INFO  TC003_ChecklistBlockClosingEnabled:80 - === Verify issue should close if any checklist is created - Execution completed ===
+2025-03-01 09:59:53 INFO  TC003_ChecklistBlockClosingEnabled:86 - === Verify issue should not close if any checklist item is unchecked ===
+2025-03-01 09:59:53 INFO  TC003_ChecklistBlockClosingEnabled:94 - Step 5: Navigate to the issue list page
+2025-03-01 09:59:54 INFO  TC003_ChecklistBlockClosingEnabled:97 - Step 6: Create issue
+2025-03-01 09:59:54 INFO  TC003_ChecklistBlockClosingEnabled:181 - Click on Add new issue btn
+2025-03-01 09:59:55 INFO  TC003_ChecklistBlockClosingEnabled:183 - Enter subject for issue
+2025-03-01 09:59:55 INFO  TC003_ChecklistBlockClosingEnabled:185 - Click on create btn to create issue
+2025-03-01 09:59:56 INFO  TC003_ChecklistBlockClosingEnabled:101 - Step 7: Add checklist item: DgsCwAzddB
+2025-03-01 09:59:56 INFO  TC003_ChecklistBlockClosingEnabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 09:59:57 INFO  TC003_ChecklistBlockClosingEnabled:213 - Click add button of Checklist Dropdown
+2025-03-01 09:59:57 INFO  TC003_ChecklistBlockClosingEnabled:215 - Enter checklist name in Checklist field
+2025-03-01 09:59:58 INFO  TC003_ChecklistBlockClosingEnabled:217 - Click Enter to create checklist
+2025-03-01 09:59:58 INFO  TC003_ChecklistBlockClosingEnabled:104 - Expected:parent checklist created
+2025-03-01 09:59:58 INFO  TC003_ChecklistBlockClosingEnabled:106 - Step 8: Verify that checklist is not checked
+2025-03-01 09:59:58 INFO  TC003_ChecklistBlockClosingEnabled:108 - Expected: Parent Checklist is not completed
+2025-03-01 09:59:58 INFO  TC003_ChecklistBlockClosingEnabled:110 - Step 9: Attempt to close the issue
+2025-03-01 09:59:58 INFO  TC003_ChecklistBlockClosingEnabled:193 - Click on edit button on issue detail form of 337
+2025-03-01 09:59:58 INFO  TC003_ChecklistBlockClosingEnabled:195 - select closed status
+2025-03-01 09:59:59 INFO  TC003_ChecklistBlockClosingEnabled:197 - Click on Submit button
+2025-03-01 10:00:19 INFO  TC003_ChecklistBlockClosingEnabled:112 - Test Passed: Issue cannot be closed if any checklist item is unchecked.
+2025-03-01 10:00:19 INFO  TC003_ChecklistBlockClosingEnabled:117 - === Verify issue should not close if any checklist item is unchecked - Execution completed ===
+2025-03-01 10:00:19 INFO  TC003_ChecklistBlockClosingEnabled:126 - === Verify issue should close if checklists is checked - Execution Started
+2025-03-01 10:00:19 INFO  TC003_ChecklistBlockClosingEnabled:128 - Step 10: navigate back on issue detail page
+2025-03-01 10:00:20 INFO  TC003_ChecklistBlockClosingEnabled:131 - Step 11: check parentchecklist checklist
+2025-03-01 10:00:20 INFO  TC003_ChecklistBlockClosingEnabled:135 - Step 12: Close the issue after completing checklist
+2025-03-01 10:00:20 INFO  TC003_ChecklistBlockClosingEnabled:193 - Click on edit button on issue detail form of 337
+2025-03-01 10:00:20 INFO  TC003_ChecklistBlockClosingEnabled:195 - select closed status
+2025-03-01 10:00:21 INFO  TC003_ChecklistBlockClosingEnabled:197 - Click on Submit button
+2025-03-01 10:00:22 INFO  TC003_ChecklistBlockClosingEnabled:138 - the issue is successfully closed
+2025-03-01 10:00:22 INFO  TC003_ChecklistBlockClosingEnabled:141 - ✅ Test Passed: Issue is automatically closed after checking all checklist items.
+2025-03-01 10:00:22 INFO  TC003_ChecklistBlockClosingEnabled:146 - === Verify issue should close if checklists is checked - Execution Started
+2025-03-01 10:00:26 INFO  TC004_CURDOperationWithEditIssuePermission:16 - ===== TC004: Verify user with Edit Issue Permission can perform curd operation -Start Execution =====
+2025-03-01 10:00:26 INFO  TC004_CURDOperationWithEditIssuePermission:23 - Step 1: Login with user who have permission edit issue 
+2025-03-01 10:00:26 INFO  TC004_CURDOperationWithEditIssuePermission:152 - ===== Login - Start Execution =====
+2025-03-01 10:00:26 INFO  TC004_CURDOperationWithEditIssuePermission:158 - Step 1: Login with provided credentials
+2025-03-01 10:00:27 INFO  TC004_CURDOperationWithEditIssuePermission:163 - Login successful for user: john
+2025-03-01 10:00:27 INFO  TC004_CURDOperationWithEditIssuePermission:168 - === Login Test Completed ===
+2025-03-01 10:00:27 INFO  TC004_CURDOperationWithEditIssuePermission:26 - Step 2: Go to issue list of project
+2025-03-01 10:00:28 INFO  TC004_CURDOperationWithEditIssuePermission:31 - Step 3: Create Issue
+2025-03-01 10:00:28 INFO  TC004_CURDOperationWithEditIssuePermission:181 - Click on Add new issue btn
+2025-03-01 10:00:29 INFO  TC004_CURDOperationWithEditIssuePermission:183 - Enter subject for issue
+2025-03-01 10:00:30 INFO  TC004_CURDOperationWithEditIssuePermission:185 - Click on create btn to create issue
+2025-03-01 10:00:30 INFO  TC004_CURDOperationWithEditIssuePermission:34 - Step 4: Create two Parent checklists
+2025-03-01 10:00:30 INFO  TC004_CURDOperationWithEditIssuePermission:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:00:31 INFO  TC004_CURDOperationWithEditIssuePermission:213 - Click add button of Checklist Dropdown
+2025-03-01 10:00:32 INFO  TC004_CURDOperationWithEditIssuePermission:215 - Enter checklist name in Checklist field
+2025-03-01 10:00:32 INFO  TC004_CURDOperationWithEditIssuePermission:217 - Click Enter to create checklist
+2025-03-01 10:00:32 INFO  TC004_CURDOperationWithEditIssuePermission:38 - Parent Checklist 'Test' is created
+2025-03-01 10:00:32 INFO  TC004_CURDOperationWithEditIssuePermission:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:00:33 INFO  TC004_CURDOperationWithEditIssuePermission:213 - Click add button of Checklist Dropdown
+2025-03-01 10:00:33 INFO  TC004_CURDOperationWithEditIssuePermission:215 - Enter checklist name in Checklist field
+2025-03-01 10:00:33 INFO  TC004_CURDOperationWithEditIssuePermission:217 - Click Enter to create checklist
+2025-03-01 10:00:33 INFO  TC004_CURDOperationWithEditIssuePermission:42 - Parent Checklist 'mobmaTjbkB' is created
+2025-03-01 10:00:33 INFO  TC004_CURDOperationWithEditIssuePermission:45 - Step 5: Create SubChecklists in parent
+2025-03-01 10:00:33 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:00:34 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:00:34 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:00:35 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:00:35 INFO  TC004_CURDOperationWithEditIssuePermission:49 - subchecklist 1 created
+2025-03-01 10:00:35 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:00:35 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:00:36 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:00:36 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:00:36 INFO  TC004_CURDOperationWithEditIssuePermission:53 - subchecklist 2 created
+2025-03-01 10:00:36 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:00:37 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:00:37 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:00:37 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:00:37 INFO  TC004_CURDOperationWithEditIssuePermission:57 - subchecklist 3 created
+2025-03-01 10:00:37 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:00:38 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:00:38 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:00:39 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:00:39 INFO  TC004_CURDOperationWithEditIssuePermission:63 - subchecklist 1 created in 2nd parentchecklist
+2025-03-01 10:00:39 INFO  TC004_CURDOperationWithEditIssuePermission:75 - Verify The duplicate parent checklist and subchecklist should not be created on same issue
+2025-03-01 10:00:39 INFO  TC004_CURDOperationWithEditIssuePermission:77 - Create same name parent checklist
+2025-03-01 10:00:39 INFO  TC004_CURDOperationWithEditIssuePermission:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:00:40 INFO  TC004_CURDOperationWithEditIssuePermission:213 - Click add button of Checklist Dropdown
+2025-03-01 10:00:40 INFO  TC004_CURDOperationWithEditIssuePermission:215 - Enter checklist name in Checklist field
+2025-03-01 10:00:40 INFO  TC004_CURDOperationWithEditIssuePermission:217 - Click Enter to create checklist
+2025-03-01 10:00:40 INFO  TC004_CURDOperationWithEditIssuePermission:82 - Same Checklist is not created
+2025-03-01 10:00:40 INFO  TC004_CURDOperationWithEditIssuePermission:84 - Create same name Subchecklist checklist
+2025-03-01 10:00:40 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:00:41 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:00:41 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:00:42 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:00:45 INFO  TC004_CURDOperationWithEditIssuePermission:89 - Same  Sub Checklist is not created in same parentChecklist
+2025-03-01 10:00:45 INFO  TC004_CURDOperationWithEditIssuePermission:101 - Step 9: updated created 1st parent checklist
+2025-03-01 10:00:45 INFO  TC004_CURDOperationWithEditIssuePermission:237 - Click on three dot of parentchecklist
+2025-03-01 10:00:45 INFO  TC004_CURDOperationWithEditIssuePermission:239 - Click edit button
+2025-03-01 10:00:46 INFO  TC004_CURDOperationWithEditIssuePermission:241 - Update checklist name
+2025-03-01 10:00:46 INFO  TC004_CURDOperationWithEditIssuePermission:243 - Click on Enter
+2025-03-01 10:00:46 INFO  TC004_CURDOperationWithEditIssuePermission:105 - 1st parent Checklist is updated
+2025-03-01 10:00:46 INFO  TC004_CURDOperationWithEditIssuePermission:107 - update 1st subChecklist name
+2025-03-01 10:00:47 INFO  TC004_CURDOperationWithEditIssuePermission:121 - Verify Checklist should be delete checklist and subchecklist
+2025-03-01 10:00:47 INFO  TC004_CURDOperationWithEditIssuePermission:123 - Delete sub checklist from 1st parentChecklist
+2025-03-01 10:00:47 INFO  TC004_CURDOperationWithEditIssuePermission:271 - Click on Three Dot of Sub Checklist
+2025-03-01 10:00:48 INFO  TC004_CURDOperationWithEditIssuePermission:273 - Click on Delete button
+2025-03-01 10:00:48 INFO  TC004_CURDOperationWithEditIssuePermission:275 - Click on Confirm button In Delete Cheklist popup
+2025-03-01 10:00:49 INFO  TC004_CURDOperationWithEditIssuePermission:141 - Verify user with Edit Issue Permission can perform curd operation
+2025-03-01 10:00:49 INFO  TC004_CURDOperationWithEditIssuePermission:142 - ===== TC004: Verify user with Edit Issue Permission can perform curd operation - Completed Execution =====
+2025-03-01 10:00:54 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:11 - ===== TC006: Verify user without Edit Issue Permission can not Create checklist - Start Execution =====
+2025-03-01 10:00:54 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:20 - Step 1: Login with user who do not have permission edit issue 
+2025-03-01 10:00:54 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:152 - ===== Login - Start Execution =====
+2025-03-01 10:00:54 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:158 - Step 1: Login with provided credentials
+2025-03-01 10:00:54 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:163 - Login successful for user: Sophia
+2025-03-01 10:00:54 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:168 - === Login Test Completed ===
+2025-03-01 10:00:54 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:23 - Step 2: go to issue list page of project
+2025-03-01 10:00:56 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:29 - Step 3: Create issue
+2025-03-01 10:00:56 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:181 - Click on Add new issue btn
+2025-03-01 10:00:57 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:183 - Enter subject for issue
+2025-03-01 10:00:57 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:185 - Click on create btn to create issue
+2025-03-01 10:00:58 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:32 - Step 4: Check Action or three dot button is not clickable
+2025-03-01 10:00:58 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:40 - TC006: Verify user without Edit Issue Permission can not Create checklist-- Completed
+2025-03-01 10:01:02 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:21 - ===== TC005: Verify After closing issue checklist is not modified -Start Execution =====
+2025-03-01 10:01:02 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:28 - Step 1: Login with user who have permission edit issue 
+2025-03-01 10:01:02 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:152 - ===== Login - Start Execution =====
+2025-03-01 10:01:02 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:158 - Step 1: Login with provided credentials
+2025-03-01 10:01:02 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:163 - Login successful for user: john
+2025-03-01 10:01:02 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:168 - === Login Test Completed ===
+2025-03-01 10:01:02 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:31 - Step 2: Go to issue list of a project
+2025-03-01 10:01:04 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:36 - Step 2: Create a issue
+2025-03-01 10:01:04 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:181 - Click on Add new issue btn
+2025-03-01 10:01:05 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:183 - Enter subject for issue
+2025-03-01 10:01:05 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:185 - Click on create btn to create issue
+2025-03-01 10:01:06 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:39 - Step 3: Create 2 Parent checklist
+2025-03-01 10:01:06 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:01:07 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:213 - Click add button of Checklist Dropdown
+2025-03-01 10:01:07 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:215 - Enter checklist name in Checklist field
+2025-03-01 10:01:07 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:217 - Click Enter to create checklist
+2025-03-01 10:01:08 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:01:08 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:213 - Click add button of Checklist Dropdown
+2025-03-01 10:01:09 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:215 - Enter checklist name in Checklist field
+2025-03-01 10:01:09 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:217 - Click Enter to create checklist
+2025-03-01 10:01:09 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:48 - Step 4: Create SubChecklists in parent
+2025-03-01 10:01:09 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:01:10 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:01:10 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:01:10 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:01:11 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:01:11 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:01:12 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:01:12 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:01:12 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:01:13 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:01:13 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:01:13 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:01:14 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:63 - Step 5: create sub checklist in 2nd parent checklist
+2025-03-01 10:01:14 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:01:14 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:01:15 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:01:15 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:01:15 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:69 - step 6: check the parents checkbox
+2025-03-01 10:01:20 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:75 - Step 11: close issue after completing checklist
+2025-03-01 10:01:20 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:193 - Click on edit button on issue detail form of 340
+2025-03-01 10:01:20 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:195 - select closed status
+2025-03-01 10:01:21 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:197 - Click on Submit button
+2025-03-01 10:01:21 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:78 - Step 12: Verifing checkbox threedots are not enabled
+2025-03-01 10:01:24 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:98 - Test passed: Checklist is not editable after closing issue
+2025-03-01 10:01:24 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:105 - ===== TC005: Verify After closing issue checklist is not modified - Execution Completed =====
+2025-03-01 10:01:27 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:16 - ===== TC007: Verify After Selecting input checkbox of parent checklist progress bar 100% completed and subchecklist also completed=====
+2025-03-01 10:01:27 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:23 - Step 1: Login with user who have permission edit issue 
+2025-03-01 10:01:27 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:152 - ===== Login - Start Execution =====
+2025-03-01 10:01:27 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:158 - Step 1: Login with provided credentials
+2025-03-01 10:01:28 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:163 - Login successful for user: john
+2025-03-01 10:01:28 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:168 - === Login Test Completed ===
+2025-03-01 10:01:28 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:26 - Step 2: Go to issue list of project
+2025-03-01 10:01:30 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:31 - Step 3: Enter Subject in issue form and clickToOpenProject on create button
+2025-03-01 10:01:30 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:181 - Click on Add new issue btn
+2025-03-01 10:01:31 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:183 - Enter subject for issue
+2025-03-01 10:01:32 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:185 - Click on create btn to create issue
+2025-03-01 10:01:33 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:34 - Step 4: Create 2 Parent checklist
+2025-03-01 10:01:33 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:01:33 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:213 - Click add button of Checklist Dropdown
+2025-03-01 10:01:34 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:215 - Enter checklist name in Checklist field
+2025-03-01 10:01:34 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:217 - Click Enter to create checklist
+2025-03-01 10:01:34 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:01:35 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:213 - Click add button of Checklist Dropdown
+2025-03-01 10:01:35 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:215 - Enter checklist name in Checklist field
+2025-03-01 10:01:35 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:217 - Click Enter to create checklist
+2025-03-01 10:01:35 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:41 - Parent checklist are created
+2025-03-01 10:01:35 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:43 - Step 5: Create SubChecklists in parent
+2025-03-01 10:01:35 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:01:36 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:01:36 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:01:37 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:01:37 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:01:38 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:01:38 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:01:38 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:01:38 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:01:39 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:01:39 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:01:40 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:01:40 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:57 - Step 6: create sub checklist in 2nd parent checklist
+2025-03-01 10:01:40 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:01:41 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:01:41 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:01:41 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:01:41 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:01:42 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:01:42 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:01:42 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:01:42 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:65 - step 6: check the parents checkbox
+2025-03-01 10:01:43 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:72 - step 8: check progress bar ofYZmTOyilqF and sub checklist checkbox check
+2025-03-01 10:01:46 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:78 - Test pass: on checking parentchecklist and all subchecklist check boxes are checked
+2025-03-01 10:01:46 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:80 - Step 9: Verify progress bar width 100% of first parent checklist
+2025-03-01 10:01:46 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:82 - Test pass: parent Checklist bar is 100%
+2025-03-01 10:01:46 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:84 - Step 10: Verify all sub checklist dropdown in done stage
+2025-03-01 10:01:47 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:88 - Test pass: Done is selected in All sub checlist dropdowns of parentchecklist
+2025-03-01 10:01:47 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:99 - Verify Checking Subchecklist one by one then progress bar increases
+2025-03-01 10:01:47 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:102 - Step 1: check 1st subchecklist and progress bar should increase 50%
+2025-03-01 10:01:50 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:108 - Test pass- on checking one checklist out of two subcehcklist progess bar increase 50%
+2025-03-01 10:01:50 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:110 - Step 2: After checking 2nd subchecklist progress bar should increase 100%
+2025-03-01 10:01:53 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:116 - Test pass- on checking last sub checklist progess bar increase 100%
+2025-03-01 10:01:58 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:15 - === TC008: Verify that Checklist template created for bug tracker and use on bug issue detail page - Start Execution ===
+2025-03-01 10:01:58 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:17 - Step 1: Login as admin
+2025-03-01 10:01:58 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:152 - ===== Login - Start Execution =====
+2025-03-01 10:01:58 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:158 - Step 1: Login with provided credentials
+2025-03-01 10:01:59 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:163 - Login successful for user: admin
+2025-03-01 10:01:59 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:168 - === Login Test Completed ===
+2025-03-01 10:01:59 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:20 - Step 2: Navigate to Checklist plugin Configuration
+2025-03-01 10:02:01 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:26 - Step 3: Go to Checklist template tab
+2025-03-01 10:02:01 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:42 - Step 4: Click on add new Checklist btn
+2025-03-01 10:02:05 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:83 - Verify Checklist Creation from Template
+2025-03-01 10:02:05 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:85 - Step 5: navigate to issue list page of a project
+2025-03-01 10:02:06 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:90 - Step 6: Create new issue
+2025-03-01 10:02:06 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:181 - Click on Add new issue btn
+2025-03-01 10:02:07 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:183 - Enter subject for issue
+2025-03-01 10:02:07 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:185 - Click on create btn to create issue
+2025-03-01 10:02:08 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:93 - Step 7: Add Checklist from list
+2025-03-01 10:02:10 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:98 - Step 8: Verify Checklist Created or not from template
+2025-03-01 10:02:11 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:108 - Test pass - Checklist are add from template
+2025-03-01 10:02:11 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:114 - === TC008: Verify that Checklist template created for bug tracker and use on bug issue detail page -Exection completed ===
+2025-03-01 10:02:25 INFO  TC001_ChecklistPluginInstallation:29 - ===== TC001: Verify Checklist Plugin Installation - Start =====
+2025-03-01 10:02:25 INFO  TC001_ChecklistPluginInstallation:152 - ===== Login - Start Execution =====
+2025-03-01 10:02:25 INFO  TC001_ChecklistPluginInstallation:158 - Step 1: Login with provided credentials
+2025-03-01 10:02:25 INFO  TC001_ChecklistPluginInstallation:163 - Login successful for user: admin
+2025-03-01 10:02:25 INFO  TC001_ChecklistPluginInstallation:168 - === Login Test Completed ===
+2025-03-01 10:02:25 INFO  TC001_ChecklistPluginInstallation:106 - Navigating to Administration → Plugins
+2025-03-01 10:02:26 INFO  TC001_ChecklistPluginInstallation:34 - Step 3: Scroll and Verify Plugin
+2025-03-01 10:02:26 INFO  TC001_ChecklistPluginInstallation:39 - ✔ Checklist Plugin is installed successfully.
+2025-03-01 10:02:26 INFO  TC001_ChecklistPluginInstallation:44 - === Checklist Plugin Verification Completed ===
+2025-03-01 10:02:26 INFO  TC001_ChecklistPluginInstallation:50 - ===== Verify Checklist Plugin Description =====
+2025-03-01 10:02:26 INFO  TC001_ChecklistPluginInstallation:56 - Checklist Plugin description is correct.
+2025-03-01 10:02:26 INFO  TC001_ChecklistPluginInstallation:61 - === Checklist Plugin Description Verification Completed ===
+2025-03-01 10:02:26 INFO  TC001_ChecklistPluginInstallation:67 - ===== Verify Knowledge Base Link Navigation =====
+2025-03-01 10:02:30 INFO  TC001_ChecklistPluginInstallation:74 - ✔ Successfully navigated to the Knowledge Base page.
+2025-03-01 10:02:30 INFO  TC001_ChecklistPluginInstallation:79 - === Knowledge Base Link Navigation Test Completed ===
+2025-03-01 10:02:30 INFO  TC001_ChecklistPluginInstallation:85 - ===== Verify Checklist Author Website Navigation =====
+2025-03-01 10:02:33 INFO  TC001_ChecklistPluginInstallation:92 - ✔ Successfully navigated to the Checklist Author's page.
+2025-03-01 10:02:33 INFO  TC001_ChecklistPluginInstallation:97 - === Checklist Author Website Link Navigation Test Completed ===
+2025-03-01 10:02:43 INFO  TC002_ChecklistBlockClosingDisabled:16 - === TC002: Verify Issue will close with or without checklist when BlockIssue is disable - Start Execution ===
+2025-03-01 10:02:43 INFO  TC002_ChecklistBlockClosingDisabled:18 - Step 1: Login as admin
+2025-03-01 10:02:43 INFO  TC002_ChecklistBlockClosingDisabled:152 - ===== Login - Start Execution =====
+2025-03-01 10:02:43 INFO  TC002_ChecklistBlockClosingDisabled:158 - Step 1: Login with provided credentials
+2025-03-01 10:02:44 INFO  TC002_ChecklistBlockClosingDisabled:163 - Login successful for user: admin
+2025-03-01 10:02:44 INFO  TC002_ChecklistBlockClosingDisabled:168 - === Login Test Completed ===
+2025-03-01 10:02:44 INFO  TC002_ChecklistBlockClosingDisabled:21 - Step 2: Navigate to Checklist plugin Configuration
+2025-03-01 10:02:46 INFO  TC002_ChecklistBlockClosingDisabled:27 - Step 3: Disable Block Issue Closing and Click on apply
+2025-03-01 10:02:46 INFO  TC002_ChecklistBlockClosingDisabled:32 - Block issue closing box is unchecked
+2025-03-01 10:02:46 INFO  TC002_ChecklistBlockClosingDisabled:37 - === Configure Checklist Plugin - Disabled ' block issue closing'- Method Executed ===
+2025-03-01 10:02:46 INFO  TC002_ChecklistBlockClosingDisabled:47 - Verify Issue should be closed without Any checklist
+2025-03-01 10:02:46 INFO  TC002_ChecklistBlockClosingDisabled:49 - Step 4: navigate to issue list page of a project
+2025-03-01 10:02:47 INFO  TC002_ChecklistBlockClosingDisabled:54 - Step 5: Create new issue
+2025-03-01 10:02:47 INFO  TC002_ChecklistBlockClosingDisabled:181 - Click on Add new issue btn
+2025-03-01 10:02:48 INFO  TC002_ChecklistBlockClosingDisabled:183 - Enter subject for issue
+2025-03-01 10:02:48 INFO  TC002_ChecklistBlockClosingDisabled:185 - Click on create btn to create issue
+2025-03-01 10:02:49 INFO  TC002_ChecklistBlockClosingDisabled:57 - Step 6: Select Closed status from dropdown and submit form
+2025-03-01 10:02:49 INFO  TC002_ChecklistBlockClosingDisabled:193 - Click on edit button on issue detail form of 343
+2025-03-01 10:02:49 INFO  TC002_ChecklistBlockClosingDisabled:195 - select closed status
+2025-03-01 10:02:50 INFO  TC002_ChecklistBlockClosingDisabled:197 - Click on Submit button
+2025-03-01 10:02:51 INFO  TC002_ChecklistBlockClosingDisabled:59 - Test pass - Issue is successfully closed!
+2025-03-01 10:02:51 INFO  TC002_ChecklistBlockClosingDisabled:65 - === Verify Issue should be closed without Any checklist - execution is completed ===
+2025-03-01 10:02:51 INFO  TC002_ChecklistBlockClosingDisabled:71 - === Verify without checking checklists or sub Checklist issue should be closed ===
+2025-03-01 10:02:51 INFO  TC002_ChecklistBlockClosingDisabled:76 - Step 7: Go to issue list from issue detail page
+2025-03-01 10:02:51 INFO  TC002_ChecklistBlockClosingDisabled:79 - Step 8: Create new issue
+2025-03-01 10:02:51 INFO  TC002_ChecklistBlockClosingDisabled:181 - Click on Add new issue btn
+2025-03-01 10:02:52 INFO  TC002_ChecklistBlockClosingDisabled:183 - Enter subject for issue
+2025-03-01 10:02:52 INFO  TC002_ChecklistBlockClosingDisabled:185 - Click on create btn to create issue
+2025-03-01 10:02:52 INFO  TC002_ChecklistBlockClosingDisabled:82 - Step 9: Create Parent Checklist
+2025-03-01 10:02:52 INFO  TC002_ChecklistBlockClosingDisabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:02:53 INFO  TC002_ChecklistBlockClosingDisabled:213 - Click add button of Checklist Dropdown
+2025-03-01 10:02:54 INFO  TC002_ChecklistBlockClosingDisabled:215 - Enter checklist name in Checklist field
+2025-03-01 10:02:54 INFO  TC002_ChecklistBlockClosingDisabled:217 - Click Enter to create checklist
+2025-03-01 10:02:55 ERROR TC002_ChecklistBlockClosingDisabled:96 - Issue closing without checking checklist any checklist test fail: BrowsingContext does no longer exist
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7e855046-205c-4482-8145-18c70724bf43, findElement {value=//span[@class='checklist-item-text' and contains(text(),'ceVeXVTnxH')], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0.1, moz:accessibilityChecks: false, moz:buildID: 20250216192613, moz:debuggerAddress: 127.0.0.1:28069, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17800, moz:profile: C:\Users\SOURAB~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:28069/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7e855046-205c-4482-8145-18c70724bf43
+2025-03-01 10:02:55 INFO  TC002_ChecklistBlockClosingDisabled:99 - === Verify without checking checklists or sub Checklist issue should be closed - Execution is completed ===
+2025-03-01 10:04:28 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sourabh Singh\IdeaProjects\ChecklistV001\crossBrowserTesting.xml
+
+2025-03-01 10:04:34 INFO  TC001_ChecklistPluginInstallation:29 - ===== TC001: Verify Checklist Plugin Installation - Start =====
+2025-03-01 10:04:34 INFO  TC001_ChecklistPluginInstallation:152 - ===== Login - Start Execution =====
+2025-03-01 10:04:34 INFO  TC001_ChecklistPluginInstallation:158 - Step 1: Login with provided credentials
+2025-03-01 10:04:35 INFO  TC001_ChecklistPluginInstallation:163 - Login successful for user: admin
+2025-03-01 10:04:35 INFO  TC001_ChecklistPluginInstallation:168 - === Login Test Completed ===
+2025-03-01 10:04:35 INFO  TC001_ChecklistPluginInstallation:106 - Navigating to Administration → Plugins
+2025-03-01 10:04:36 INFO  TC001_ChecklistPluginInstallation:34 - Step 3: Scroll and Verify Plugin
+2025-03-01 10:04:36 INFO  TC001_ChecklistPluginInstallation:39 - ✔ Checklist Plugin is installed successfully.
+2025-03-01 10:04:36 INFO  TC001_ChecklistPluginInstallation:44 - === Checklist Plugin Verification Completed ===
+2025-03-01 10:04:36 INFO  TC001_ChecklistPluginInstallation:50 - ===== Verify Checklist Plugin Description =====
+2025-03-01 10:04:36 INFO  TC001_ChecklistPluginInstallation:56 - Checklist Plugin description is correct.
+2025-03-01 10:04:36 INFO  TC001_ChecklistPluginInstallation:61 - === Checklist Plugin Description Verification Completed ===
+2025-03-01 10:04:36 INFO  TC001_ChecklistPluginInstallation:67 - ===== Verify Knowledge Base Link Navigation =====
+2025-03-01 10:04:42 INFO  TC001_ChecklistPluginInstallation:74 - ✔ Successfully navigated to the Knowledge Base page.
+2025-03-01 10:04:42 INFO  TC001_ChecklistPluginInstallation:79 - === Knowledge Base Link Navigation Test Completed ===
+2025-03-01 10:04:42 INFO  TC001_ChecklistPluginInstallation:85 - ===== Verify Checklist Author Website Navigation =====
+2025-03-01 10:04:47 INFO  TC001_ChecklistPluginInstallation:92 - ✔ Successfully navigated to the Checklist Author's page.
+2025-03-01 10:04:47 INFO  TC001_ChecklistPluginInstallation:97 - === Checklist Author Website Link Navigation Test Completed ===
+2025-03-01 10:04:51 INFO  TC002_ChecklistBlockClosingDisabled:16 - === TC002: Verify Issue will close with or without checklist when BlockIssue is disable - Start Execution ===
+2025-03-01 10:04:51 INFO  TC002_ChecklistBlockClosingDisabled:18 - Step 1: Login as admin
+2025-03-01 10:04:51 INFO  TC002_ChecklistBlockClosingDisabled:152 - ===== Login - Start Execution =====
+2025-03-01 10:04:51 INFO  TC002_ChecklistBlockClosingDisabled:158 - Step 1: Login with provided credentials
+2025-03-01 10:04:52 INFO  TC002_ChecklistBlockClosingDisabled:163 - Login successful for user: admin
+2025-03-01 10:04:52 INFO  TC002_ChecklistBlockClosingDisabled:168 - === Login Test Completed ===
+2025-03-01 10:04:52 INFO  TC002_ChecklistBlockClosingDisabled:21 - Step 2: Navigate to Checklist plugin Configuration
+2025-03-01 10:04:54 INFO  TC002_ChecklistBlockClosingDisabled:27 - Step 3: Disable Block Issue Closing and Click on apply
+2025-03-01 10:04:54 INFO  TC002_ChecklistBlockClosingDisabled:32 - Block issue closing box is unchecked
+2025-03-01 10:04:54 INFO  TC002_ChecklistBlockClosingDisabled:37 - === Configure Checklist Plugin - Disabled ' block issue closing'- Method Executed ===
+2025-03-01 10:04:54 INFO  TC002_ChecklistBlockClosingDisabled:47 - Verify Issue should be closed without Any checklist
+2025-03-01 10:04:54 INFO  TC002_ChecklistBlockClosingDisabled:49 - Step 4: navigate to issue list page of a project
+2025-03-01 10:04:56 INFO  TC002_ChecklistBlockClosingDisabled:54 - Step 5: Create new issue
+2025-03-01 10:04:56 INFO  TC002_ChecklistBlockClosingDisabled:181 - Click on Add new issue btn
+2025-03-01 10:04:56 INFO  TC002_ChecklistBlockClosingDisabled:183 - Enter subject for issue
+2025-03-01 10:04:57 INFO  TC002_ChecklistBlockClosingDisabled:185 - Click on create btn to create issue
+2025-03-01 10:04:58 INFO  TC002_ChecklistBlockClosingDisabled:57 - Step 6: Select Closed status from dropdown and submit form
+2025-03-01 10:04:58 INFO  TC002_ChecklistBlockClosingDisabled:193 - Click on edit button on issue detail form of 345
+2025-03-01 10:04:58 INFO  TC002_ChecklistBlockClosingDisabled:195 - select closed status
+2025-03-01 10:04:59 INFO  TC002_ChecklistBlockClosingDisabled:197 - Click on Submit button
+2025-03-01 10:04:59 INFO  TC002_ChecklistBlockClosingDisabled:59 - Test pass - Issue is successfully closed!
+2025-03-01 10:04:59 INFO  TC002_ChecklistBlockClosingDisabled:65 - === Verify Issue should be closed without Any checklist - execution is completed ===
+2025-03-01 10:04:59 INFO  TC002_ChecklistBlockClosingDisabled:71 - === Verify without checking checklists or sub Checklist issue should be closed ===
+2025-03-01 10:04:59 INFO  TC002_ChecklistBlockClosingDisabled:76 - Step 7: Go to issue list from issue detail page
+2025-03-01 10:05:00 INFO  TC002_ChecklistBlockClosingDisabled:79 - Step 8: Create new issue
+2025-03-01 10:05:00 INFO  TC002_ChecklistBlockClosingDisabled:181 - Click on Add new issue btn
+2025-03-01 10:05:01 INFO  TC002_ChecklistBlockClosingDisabled:183 - Enter subject for issue
+2025-03-01 10:05:01 INFO  TC002_ChecklistBlockClosingDisabled:185 - Click on create btn to create issue
+2025-03-01 10:05:01 INFO  TC002_ChecklistBlockClosingDisabled:82 - Step 9: Create Parent Checklist
+2025-03-01 10:05:01 INFO  TC002_ChecklistBlockClosingDisabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:05:02 INFO  TC002_ChecklistBlockClosingDisabled:213 - Click add button of Checklist Dropdown
+2025-03-01 10:05:03 INFO  TC002_ChecklistBlockClosingDisabled:215 - Enter checklist name in Checklist field
+2025-03-01 10:05:03 INFO  TC002_ChecklistBlockClosingDisabled:217 - Click Enter to create checklist
+2025-03-01 10:05:03 INFO  TC002_ChecklistBlockClosingDisabled:86 - pkmbYbufeo: is created
+2025-03-01 10:05:03 INFO  TC002_ChecklistBlockClosingDisabled:88 - Step 10: Enter subchecklist name
+2025-03-01 10:05:03 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 10:05:04 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 10:05:04 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 10:05:05 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 10:05:05 INFO  TC002_ChecklistBlockClosingDisabled:92 - Step 11: Select Closed status from dropdown and submit form
+2025-03-01 10:05:05 INFO  TC002_ChecklistBlockClosingDisabled:193 - Click on edit button on issue detail form of 346
+2025-03-01 10:05:05 INFO  TC002_ChecklistBlockClosingDisabled:195 - select closed status
+2025-03-01 10:05:06 INFO  TC002_ChecklistBlockClosingDisabled:197 - Click on Submit button
+2025-03-01 10:05:06 INFO  TC002_ChecklistBlockClosingDisabled:94 - Test pass Issue is successfully closed!
+2025-03-01 10:05:06 INFO  TC002_ChecklistBlockClosingDisabled:99 - === Verify without checking checklists or sub Checklist issue should be closed - Execution is completed ===
+2025-03-01 10:05:06 INFO  TC002_ChecklistBlockClosingDisabled:105 - === Verify that the issue closes after completing the checklist when block issue closing disabled ===
+2025-03-01 10:05:06 INFO  TC002_ChecklistBlockClosingDisabled:108 - Step 11: Navigate to the issue list from the issue detail page
+2025-03-01 10:05:07 INFO  TC002_ChecklistBlockClosingDisabled:111 - Step 12: Create a issue
+2025-03-01 10:05:07 INFO  TC002_ChecklistBlockClosingDisabled:181 - Click on Add new issue btn
+2025-03-01 10:05:07 INFO  TC002_ChecklistBlockClosingDisabled:183 - Enter subject for issue
+2025-03-01 10:05:08 INFO  TC002_ChecklistBlockClosingDisabled:185 - Click on create btn to create issue
+2025-03-01 10:05:09 INFO  TC002_ChecklistBlockClosingDisabled:114 - Step 13: Create parent Checklists
+2025-03-01 10:05:09 INFO  TC002_ChecklistBlockClosingDisabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:05:10 INFO  TC002_ChecklistBlockClosingDisabled:213 - Click add button of Checklist Dropdown
+2025-03-01 10:05:10 INFO  TC002_ChecklistBlockClosingDisabled:215 - Enter checklist name in Checklist field
+2025-03-01 10:05:10 INFO  TC002_ChecklistBlockClosingDisabled:217 - Click Enter to create checklist
+2025-03-01 10:05:10 INFO  TC002_ChecklistBlockClosingDisabled:118 - Parent Checklist 'SROolyvucO' is created
+2025-03-01 10:05:10 INFO  TC002_ChecklistBlockClosingDisabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:05:11 INFO  TC002_ChecklistBlockClosingDisabled:213 - Click add button of Checklist Dropdown
+2025-03-01 10:05:12 INFO  TC002_ChecklistBlockClosingDisabled:215 - Enter checklist name in Checklist field
+2025-03-01 10:05:12 INFO  TC002_ChecklistBlockClosingDisabled:217 - Click Enter to create checklist
+2025-03-01 10:05:12 INFO  TC002_ChecklistBlockClosingDisabled:123 - Parent Checklist 'uANfJYZSveDrlO' is created
+2025-03-01 10:05:15 INFO  TC002_ChecklistBlockClosingDisabled:127 - Step 14: add subchecklists in 1st parentchecklist
+2025-03-01 10:05:15 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 10:05:16 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 10:05:16 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 10:05:16 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 10:05:17 INFO  TC002_ChecklistBlockClosingDisabled:131 - SubChecklist1 'HGVHz' is created
+2025-03-01 10:05:17 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 10:05:17 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 10:05:18 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 10:05:18 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 10:05:18 INFO  TC002_ChecklistBlockClosingDisabled:135 - SubChecklist2 'HcpRx' is created
+2025-03-01 10:05:18 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 10:05:19 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 10:05:19 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 10:05:19 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 10:05:20 INFO  TC002_ChecklistBlockClosingDisabled:139 - SubChecklist3 'lvCgH' is created
+2025-03-01 10:05:23 INFO  TC002_ChecklistBlockClosingDisabled:143 - check the checkboxes of parent checklists
+2025-03-01 10:05:23 INFO  TC002_ChecklistBlockClosingDisabled:146 - Check parent and its sub checlist checkboxes are checked
+2025-03-01 10:05:24 INFO  TC002_ChecklistBlockClosingDisabled:150 - all checboxes in checklist section are checked
+2025-03-01 10:05:24 INFO  TC002_ChecklistBlockClosingDisabled:153 - Step 15: Verify that the issue is closed
+2025-03-01 10:05:24 INFO  TC002_ChecklistBlockClosingDisabled:193 - Click on edit button on issue detail form of 347
+2025-03-01 10:05:24 INFO  TC002_ChecklistBlockClosingDisabled:195 - select closed status
+2025-03-01 10:05:24 INFO  TC002_ChecklistBlockClosingDisabled:197 - Click on Submit button
+2025-03-01 10:05:25 INFO  TC002_ChecklistBlockClosingDisabled:156 - Test Passed: Issue is closed after checking all checklist items.
+2025-03-01 10:05:25 INFO  TC002_ChecklistBlockClosingDisabled:163 - === Verifying issue closes after completing the checklist when block issue closing disabled
+2025-03-01 10:05:25 INFO  TC002_ChecklistBlockClosingDisabled:164 - ===== TC002: Verify Issue will close with or without checklist when BlockIssue is disable - Completed Execution =====
+2025-03-01 10:05:30 INFO  TC003_ChecklistBlockClosingEnabled:15 - ===== TC003: Verify Issue cannot close if any checklist item is unchecked when Block Issue is enabled - Start Execution =====
+2025-03-01 10:05:30 INFO  TC003_ChecklistBlockClosingEnabled:24 - Step 1: Login as admin
+2025-03-01 10:05:30 INFO  TC003_ChecklistBlockClosingEnabled:152 - ===== Login - Start Execution =====
+2025-03-01 10:05:30 INFO  TC003_ChecklistBlockClosingEnabled:158 - Step 1: Login with provided credentials
+2025-03-01 10:05:30 INFO  TC003_ChecklistBlockClosingEnabled:163 - Login successful for user: admin
+2025-03-01 10:05:30 INFO  TC003_ChecklistBlockClosingEnabled:168 - === Login Test Completed ===
+2025-03-01 10:05:30 INFO  TC003_ChecklistBlockClosingEnabled:27 - Step 2: Navigate to Checklist plugin → Configuration
+2025-03-01 10:05:32 INFO  TC003_ChecklistBlockClosingEnabled:34 - Step 3: Enable Block Issue Closing and Click on apply
+2025-03-01 10:05:33 INFO  TC003_ChecklistBlockClosingEnabled:43 - === Configure Checklist Plugin - Enabled 'Block Issue Closing' - Method Executed ===
+2025-03-01 10:05:33 INFO  TC003_ChecklistBlockClosingEnabled:49 - === Verify issue should close if no checklist is Created ===
+2025-03-01 10:05:33 INFO  TC003_ChecklistBlockClosingEnabled:61 - Step 4: Navigate to the issue list of a project
+2025-03-01 10:05:35 INFO  TC003_ChecklistBlockClosingEnabled:68 - Step 6: Enter Subject in issue form
+2025-03-01 10:05:35 INFO  TC003_ChecklistBlockClosingEnabled:181 - Click on Add new issue btn
+2025-03-01 10:05:36 INFO  TC003_ChecklistBlockClosingEnabled:183 - Enter subject for issue
+2025-03-01 10:05:36 INFO  TC003_ChecklistBlockClosingEnabled:185 - Click on create btn to create issue
+2025-03-01 10:05:37 INFO  TC003_ChecklistBlockClosingEnabled:73 - Step 4: Attempt to close the issue
+2025-03-01 10:05:37 INFO  TC003_ChecklistBlockClosingEnabled:193 - Click on edit button on issue detail form of 348
+2025-03-01 10:05:37 INFO  TC003_ChecklistBlockClosingEnabled:195 - select closed status
+2025-03-01 10:05:38 INFO  TC003_ChecklistBlockClosingEnabled:197 - Click on Submit button
+2025-03-01 10:05:39 INFO  TC003_ChecklistBlockClosingEnabled:75 - Test Passed: Issue can be closed if NO checklist is created.
+2025-03-01 10:05:39 INFO  TC003_ChecklistBlockClosingEnabled:80 - === Verify issue should close if any checklist is created - Execution completed ===
+2025-03-01 10:05:39 INFO  TC003_ChecklistBlockClosingEnabled:86 - === Verify issue should not close if any checklist item is unchecked ===
+2025-03-01 10:05:39 INFO  TC003_ChecklistBlockClosingEnabled:94 - Step 5: Navigate to the issue list page
+2025-03-01 10:05:39 INFO  TC003_ChecklistBlockClosingEnabled:97 - Step 6: Create issue
+2025-03-01 10:05:39 INFO  TC003_ChecklistBlockClosingEnabled:181 - Click on Add new issue btn
+2025-03-01 10:05:40 INFO  TC003_ChecklistBlockClosingEnabled:183 - Enter subject for issue
+2025-03-01 10:05:40 INFO  TC003_ChecklistBlockClosingEnabled:185 - Click on create btn to create issue
+2025-03-01 10:05:41 INFO  TC003_ChecklistBlockClosingEnabled:101 - Step 7: Add checklist item: XIkPvrtXpu
+2025-03-01 10:05:41 INFO  TC003_ChecklistBlockClosingEnabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:05:42 INFO  TC003_ChecklistBlockClosingEnabled:213 - Click add button of Checklist Dropdown
+2025-03-01 10:05:42 INFO  TC003_ChecklistBlockClosingEnabled:215 - Enter checklist name in Checklist field
+2025-03-01 10:05:42 INFO  TC003_ChecklistBlockClosingEnabled:217 - Click Enter to create checklist
+2025-03-01 10:05:42 INFO  TC003_ChecklistBlockClosingEnabled:104 - Expected:parent checklist created
+2025-03-01 10:05:42 INFO  TC003_ChecklistBlockClosingEnabled:106 - Step 8: Verify that checklist is not checked
+2025-03-01 10:05:43 INFO  TC003_ChecklistBlockClosingEnabled:108 - Expected: Parent Checklist is not completed
+2025-03-01 10:05:43 INFO  TC003_ChecklistBlockClosingEnabled:110 - Step 9: Attempt to close the issue
+2025-03-01 10:05:43 INFO  TC003_ChecklistBlockClosingEnabled:193 - Click on edit button on issue detail form of 349
+2025-03-01 10:05:43 INFO  TC003_ChecklistBlockClosingEnabled:195 - select closed status
+2025-03-01 10:05:43 INFO  TC003_ChecklistBlockClosingEnabled:197 - Click on Submit button
+2025-03-01 10:06:04 INFO  TC003_ChecklistBlockClosingEnabled:112 - Test Passed: Issue cannot be closed if any checklist item is unchecked.
+2025-03-01 10:06:04 INFO  TC003_ChecklistBlockClosingEnabled:117 - === Verify issue should not close if any checklist item is unchecked - Execution completed ===
+2025-03-01 10:06:04 INFO  TC003_ChecklistBlockClosingEnabled:126 - === Verify issue should close if checklists is checked - Execution Started
+2025-03-01 10:06:04 INFO  TC003_ChecklistBlockClosingEnabled:128 - Step 10: navigate back on issue detail page
+2025-03-01 10:06:04 INFO  TC003_ChecklistBlockClosingEnabled:131 - Step 11: check parentchecklist checklist
+2025-03-01 10:06:05 INFO  TC003_ChecklistBlockClosingEnabled:135 - Step 12: Close the issue after completing checklist
+2025-03-01 10:06:05 INFO  TC003_ChecklistBlockClosingEnabled:193 - Click on edit button on issue detail form of 349
+2025-03-01 10:06:05 INFO  TC003_ChecklistBlockClosingEnabled:195 - select closed status
+2025-03-01 10:06:06 INFO  TC003_ChecklistBlockClosingEnabled:197 - Click on Submit button
+2025-03-01 10:06:07 INFO  TC003_ChecklistBlockClosingEnabled:138 - the issue is successfully closed
+2025-03-01 10:06:07 INFO  TC003_ChecklistBlockClosingEnabled:141 - ✅ Test Passed: Issue is automatically closed after checking all checklist items.
+2025-03-01 10:06:07 INFO  TC003_ChecklistBlockClosingEnabled:146 - === Verify issue should close if checklists is checked - Execution Started
+2025-03-01 10:06:10 INFO  TC004_CURDOperationWithEditIssuePermission:16 - ===== TC004: Verify user with Edit Issue Permission can perform curd operation -Start Execution =====
+2025-03-01 10:06:10 INFO  TC004_CURDOperationWithEditIssuePermission:23 - Step 1: Login with user who have permission edit issue 
+2025-03-01 10:06:10 INFO  TC004_CURDOperationWithEditIssuePermission:152 - ===== Login - Start Execution =====
+2025-03-01 10:06:10 INFO  TC004_CURDOperationWithEditIssuePermission:158 - Step 1: Login with provided credentials
+2025-03-01 10:06:12 INFO  TC004_CURDOperationWithEditIssuePermission:163 - Login successful for user: john
+2025-03-01 10:06:12 INFO  TC004_CURDOperationWithEditIssuePermission:168 - === Login Test Completed ===
+2025-03-01 10:06:12 INFO  TC004_CURDOperationWithEditIssuePermission:26 - Step 2: Go to issue list of project
+2025-03-01 10:06:13 INFO  TC004_CURDOperationWithEditIssuePermission:31 - Step 3: Create Issue
+2025-03-01 10:06:13 INFO  TC004_CURDOperationWithEditIssuePermission:181 - Click on Add new issue btn
+2025-03-01 10:06:14 INFO  TC004_CURDOperationWithEditIssuePermission:183 - Enter subject for issue
+2025-03-01 10:06:15 INFO  TC004_CURDOperationWithEditIssuePermission:185 - Click on create btn to create issue
+2025-03-01 10:06:15 INFO  TC004_CURDOperationWithEditIssuePermission:34 - Step 4: Create two Parent checklists
+2025-03-01 10:06:15 INFO  TC004_CURDOperationWithEditIssuePermission:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:06:16 INFO  TC004_CURDOperationWithEditIssuePermission:213 - Click add button of Checklist Dropdown
+2025-03-01 10:06:16 INFO  TC004_CURDOperationWithEditIssuePermission:215 - Enter checklist name in Checklist field
+2025-03-01 10:06:17 INFO  TC004_CURDOperationWithEditIssuePermission:217 - Click Enter to create checklist
+2025-03-01 10:06:17 INFO  TC004_CURDOperationWithEditIssuePermission:38 - Parent Checklist 'Test' is created
+2025-03-01 10:06:17 INFO  TC004_CURDOperationWithEditIssuePermission:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:06:18 INFO  TC004_CURDOperationWithEditIssuePermission:213 - Click add button of Checklist Dropdown
+2025-03-01 10:06:18 INFO  TC004_CURDOperationWithEditIssuePermission:215 - Enter checklist name in Checklist field
+2025-03-01 10:06:18 INFO  TC004_CURDOperationWithEditIssuePermission:217 - Click Enter to create checklist
+2025-03-01 10:06:18 INFO  TC004_CURDOperationWithEditIssuePermission:42 - Parent Checklist 'SsLPFWlBmP' is created
+2025-03-01 10:06:18 INFO  TC004_CURDOperationWithEditIssuePermission:45 - Step 5: Create SubChecklists in parent
+2025-03-01 10:06:18 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:06:19 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:06:19 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:06:20 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:06:20 INFO  TC004_CURDOperationWithEditIssuePermission:49 - subchecklist 1 created
+2025-03-01 10:06:20 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:06:20 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:06:21 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:06:21 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:06:21 INFO  TC004_CURDOperationWithEditIssuePermission:53 - subchecklist 2 created
+2025-03-01 10:06:21 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:06:22 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:06:22 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:06:22 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:06:23 INFO  TC004_CURDOperationWithEditIssuePermission:57 - subchecklist 3 created
+2025-03-01 10:06:23 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:06:23 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:06:24 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:06:24 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:06:24 INFO  TC004_CURDOperationWithEditIssuePermission:63 - subchecklist 1 created in 2nd parentchecklist
+2025-03-01 10:06:24 INFO  TC004_CURDOperationWithEditIssuePermission:75 - Verify The duplicate parent checklist and subchecklist should not be created on same issue
+2025-03-01 10:06:24 INFO  TC004_CURDOperationWithEditIssuePermission:77 - Create same name parent checklist
+2025-03-01 10:06:24 INFO  TC004_CURDOperationWithEditIssuePermission:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:06:25 INFO  TC004_CURDOperationWithEditIssuePermission:213 - Click add button of Checklist Dropdown
+2025-03-01 10:06:25 INFO  TC004_CURDOperationWithEditIssuePermission:215 - Enter checklist name in Checklist field
+2025-03-01 10:06:25 INFO  TC004_CURDOperationWithEditIssuePermission:217 - Click Enter to create checklist
+2025-03-01 10:06:26 INFO  TC004_CURDOperationWithEditIssuePermission:82 - Same Checklist is not created
+2025-03-01 10:06:26 INFO  TC004_CURDOperationWithEditIssuePermission:84 - Create same name Subchecklist checklist
+2025-03-01 10:06:26 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:06:27 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:06:27 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:06:27 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:06:30 INFO  TC004_CURDOperationWithEditIssuePermission:89 - Same  Sub Checklist is not created in same parentChecklist
+2025-03-01 10:06:30 INFO  TC004_CURDOperationWithEditIssuePermission:101 - Step 9: updated created 1st parent checklist
+2025-03-01 10:06:30 INFO  TC004_CURDOperationWithEditIssuePermission:237 - Click on three dot of parentchecklist
+2025-03-01 10:06:31 INFO  TC004_CURDOperationWithEditIssuePermission:239 - Click edit button
+2025-03-01 10:06:31 INFO  TC004_CURDOperationWithEditIssuePermission:241 - Update checklist name
+2025-03-01 10:06:32 INFO  TC004_CURDOperationWithEditIssuePermission:243 - Click on Enter
+2025-03-01 10:06:32 INFO  TC004_CURDOperationWithEditIssuePermission:105 - 1st parent Checklist is updated
+2025-03-01 10:06:32 INFO  TC004_CURDOperationWithEditIssuePermission:107 - update 1st subChecklist name
+2025-03-01 10:06:33 INFO  TC004_CURDOperationWithEditIssuePermission:121 - Verify Checklist should be delete checklist and subchecklist
+2025-03-01 10:06:33 INFO  TC004_CURDOperationWithEditIssuePermission:123 - Delete sub checklist from 1st parentChecklist
+2025-03-01 10:06:33 INFO  TC004_CURDOperationWithEditIssuePermission:271 - Click on Three Dot of Sub Checklist
+2025-03-01 10:06:34 INFO  TC004_CURDOperationWithEditIssuePermission:273 - Click on Delete button
+2025-03-01 10:06:34 INFO  TC004_CURDOperationWithEditIssuePermission:275 - Click on Confirm button In Delete Cheklist popup
+2025-03-01 10:06:41 INFO  TC004_CURDOperationWithEditIssuePermission:129 - SubChecklist Checklist Deleted Successfully
+2025-03-01 10:06:41 INFO  TC004_CURDOperationWithEditIssuePermission:131 - Delete 2nd parentChecklist
+2025-03-01 10:06:41 INFO  TC004_CURDOperationWithEditIssuePermission:260 - Click on Three Dot of Parent Checklist
+2025-03-01 10:06:42 INFO  TC004_CURDOperationWithEditIssuePermission:262 - Click on Delete button
+2025-03-01 10:06:42 INFO  TC004_CURDOperationWithEditIssuePermission:264 - Click on Confirm button In Delete Checklist popup
+2025-03-01 10:06:45 INFO  TC004_CURDOperationWithEditIssuePermission:135 - parent Checklist Deleted Successfully
+2025-03-01 10:06:45 INFO  TC004_CURDOperationWithEditIssuePermission:142 - Verify user with Edit Issue Permission can perform curd operation
+2025-03-01 10:06:45 INFO  TC004_CURDOperationWithEditIssuePermission:143 - ===== TC004: Verify user with Edit Issue Permission can perform curd operation - Completed Execution =====
+2025-03-01 10:06:50 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:11 - ===== TC006: Verify user without Edit Issue Permission can not Create checklist - Start Execution =====
+2025-03-01 10:06:50 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:20 - Step 1: Login with user who do not have permission edit issue 
+2025-03-01 10:06:50 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:152 - ===== Login - Start Execution =====
+2025-03-01 10:06:50 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:158 - Step 1: Login with provided credentials
+2025-03-01 10:06:51 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:163 - Login successful for user: Sophia
+2025-03-01 10:06:51 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:168 - === Login Test Completed ===
+2025-03-01 10:06:51 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:23 - Step 2: go to issue list page of project
+2025-03-01 10:06:52 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:29 - Step 3: Create issue
+2025-03-01 10:06:52 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:181 - Click on Add new issue btn
+2025-03-01 10:06:53 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:183 - Enter subject for issue
+2025-03-01 10:06:53 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:185 - Click on create btn to create issue
+2025-03-01 10:06:54 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:32 - Step 4: Check Action or three dot button is not clickable
+2025-03-01 10:06:54 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:40 - TC006: Verify user without Edit Issue Permission can not Create checklist-- Completed
+2025-03-01 10:06:58 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:21 - ===== TC005: Verify After closing issue checklist is not modified -Start Execution =====
+2025-03-01 10:06:58 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:28 - Step 1: Login with user who have permission edit issue 
+2025-03-01 10:06:58 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:152 - ===== Login - Start Execution =====
+2025-03-01 10:06:58 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:158 - Step 1: Login with provided credentials
+2025-03-01 10:06:59 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:163 - Login successful for user: john
+2025-03-01 10:06:59 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:168 - === Login Test Completed ===
+2025-03-01 10:06:59 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:31 - Step 2: Go to issue list of a project
+2025-03-01 10:07:01 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:36 - Step 2: Create a issue
+2025-03-01 10:07:01 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:181 - Click on Add new issue btn
+2025-03-01 10:07:01 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:183 - Enter subject for issue
+2025-03-01 10:07:02 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:185 - Click on create btn to create issue
+2025-03-01 10:07:03 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:39 - Step 3: Create 2 Parent checklist
+2025-03-01 10:07:03 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:07:04 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:213 - Click add button of Checklist Dropdown
+2025-03-01 10:07:04 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:215 - Enter checklist name in Checklist field
+2025-03-01 10:07:04 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:217 - Click Enter to create checklist
+2025-03-01 10:07:04 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:07:05 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:213 - Click add button of Checklist Dropdown
+2025-03-01 10:07:05 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:215 - Enter checklist name in Checklist field
+2025-03-01 10:07:06 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:217 - Click Enter to create checklist
+2025-03-01 10:07:06 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:48 - Step 4: Create SubChecklists in parent
+2025-03-01 10:07:06 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:07:07 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:07:07 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:07:07 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:07:07 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:07:08 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:07:08 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:07:09 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:07:09 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:07:10 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:07:10 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:07:10 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:07:10 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:63 - Step 5: create sub checklist in 2nd parent checklist
+2025-03-01 10:07:10 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:07:11 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:07:11 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:07:11 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:07:12 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:69 - step 6: check the parents checkbox
+2025-03-01 10:07:16 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:75 - Step 11: close issue after completing checklist
+2025-03-01 10:07:16 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:193 - Click on edit button on issue detail form of 352
+2025-03-01 10:07:17 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:195 - select closed status
+2025-03-01 10:07:17 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:197 - Click on Submit button
+2025-03-01 10:07:18 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:78 - Step 12: Verifing checkbox threedots are not enabled
+2025-03-01 10:07:20 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:98 - Test passed: Checklist is not editable after closing issue
+2025-03-01 10:07:20 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:105 - ===== TC005: Verify After closing issue checklist is not modified - Execution Completed =====
+2025-03-01 10:07:24 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:16 - ===== TC007: Verify After Selecting input checkbox of parent checklist progress bar 100% completed and subchecklist also completed=====
+2025-03-01 10:07:24 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:23 - Step 1: Login with user who have permission edit issue 
+2025-03-01 10:07:24 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:152 - ===== Login - Start Execution =====
+2025-03-01 10:07:24 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:158 - Step 1: Login with provided credentials
+2025-03-01 10:07:25 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:163 - Login successful for user: john
+2025-03-01 10:07:25 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:168 - === Login Test Completed ===
+2025-03-01 10:07:25 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:26 - Step 2: Go to issue list of project
+2025-03-01 10:07:27 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:31 - Step 3: Enter Subject in issue form and clickToOpenProject on create button
+2025-03-01 10:07:27 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:181 - Click on Add new issue btn
+2025-03-01 10:07:28 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:183 - Enter subject for issue
+2025-03-01 10:07:29 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:185 - Click on create btn to create issue
+2025-03-01 10:07:29 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:34 - Step 4: Create 2 Parent checklist
+2025-03-01 10:07:29 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:07:30 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:213 - Click add button of Checklist Dropdown
+2025-03-01 10:07:30 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:215 - Enter checklist name in Checklist field
+2025-03-01 10:07:31 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:217 - Click Enter to create checklist
+2025-03-01 10:07:31 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:07:32 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:213 - Click add button of Checklist Dropdown
+2025-03-01 10:07:32 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:215 - Enter checklist name in Checklist field
+2025-03-01 10:07:32 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:217 - Click Enter to create checklist
+2025-03-01 10:07:33 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:41 - Parent checklist are created
+2025-03-01 10:07:33 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:43 - Step 5: Create SubChecklists in parent
+2025-03-01 10:07:33 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:07:33 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:07:34 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:07:34 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:07:34 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:07:35 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:07:35 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:07:35 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:07:35 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:07:36 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:07:36 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:07:37 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:07:37 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:57 - Step 6: create sub checklist in 2nd parent checklist
+2025-03-01 10:07:37 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:07:38 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:07:38 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:07:38 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:07:38 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:07:39 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:07:39 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:07:40 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:07:40 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:65 - step 6: check the parents checkbox
+2025-03-01 10:07:40 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:72 - step 8: check progress bar ofRfjNroufdn and sub checklist checkbox check
+2025-03-01 10:07:44 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:78 - Test pass: on checking parentchecklist and all subchecklist check boxes are checked
+2025-03-01 10:07:44 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:80 - Step 9: Verify progress bar width 100% of first parent checklist
+2025-03-01 10:07:44 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:82 - Test pass: parent Checklist bar is 100%
+2025-03-01 10:07:44 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:84 - Step 10: Verify all sub checklist dropdown in done stage
+2025-03-01 10:07:44 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:88 - Test pass: Done is selected in All sub checlist dropdowns of parentchecklist
+2025-03-01 10:07:44 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:99 - Verify Checking Subchecklist one by one then progress bar increases
+2025-03-01 10:07:44 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:102 - Step 1: check 1st subchecklist and progress bar should increase 50%
+2025-03-01 10:07:47 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:108 - Test pass- on checking one checklist out of two subcehcklist progess bar increase 50%
+2025-03-01 10:07:47 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:110 - Step 2: After checking 2nd subchecklist progress bar should increase 100%
+2025-03-01 10:07:50 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:116 - Test pass- on checking last sub checklist progess bar increase 100%
+2025-03-01 10:07:54 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:15 - === TC008: Verify that Checklist template created for bug tracker and use on bug issue detail page - Start Execution ===
+2025-03-01 10:07:54 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:17 - Step 1: Login as admin
+2025-03-01 10:07:54 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:152 - ===== Login - Start Execution =====
+2025-03-01 10:07:54 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:158 - Step 1: Login with provided credentials
+2025-03-01 10:07:55 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:163 - Login successful for user: admin
+2025-03-01 10:07:55 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:168 - === Login Test Completed ===
+2025-03-01 10:07:55 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:20 - Step 2: Navigate to Checklist plugin Configuration
+2025-03-01 10:07:57 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:26 - Step 3: Go to Checklist template tab
+2025-03-01 10:07:57 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:42 - Step 4: Click on add new Checklist btn
+2025-03-01 10:08:01 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:83 - Verify Checklist Creation from Template
+2025-03-01 10:08:01 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:85 - Step 5: navigate to issue list page of a project
+2025-03-01 10:08:02 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:90 - Step 6: Create new issue
+2025-03-01 10:08:02 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:181 - Click on Add new issue btn
+2025-03-01 10:08:03 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:183 - Enter subject for issue
+2025-03-01 10:08:03 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:185 - Click on create btn to create issue
+2025-03-01 10:08:05 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:93 - Step 7: Add Checklist from list
+2025-03-01 10:08:06 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:98 - Step 8: Verify Checklist Created or not from template
+2025-03-01 10:08:07 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:108 - Test pass - Checklist are add from template
+2025-03-01 10:08:07 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:114 - === TC008: Verify that Checklist template created for bug tracker and use on bug issue detail page -Exection completed ===
+2025-03-01 10:08:20 INFO  TC001_ChecklistPluginInstallation:29 - ===== TC001: Verify Checklist Plugin Installation - Start =====
+2025-03-01 10:08:20 INFO  TC001_ChecklistPluginInstallation:152 - ===== Login - Start Execution =====
+2025-03-01 10:08:20 INFO  TC001_ChecklistPluginInstallation:158 - Step 1: Login with provided credentials
+2025-03-01 10:08:21 INFO  TC001_ChecklistPluginInstallation:163 - Login successful for user: admin
+2025-03-01 10:08:21 INFO  TC001_ChecklistPluginInstallation:168 - === Login Test Completed ===
+2025-03-01 10:08:21 INFO  TC001_ChecklistPluginInstallation:106 - Navigating to Administration → Plugins
+2025-03-01 10:08:22 INFO  TC001_ChecklistPluginInstallation:34 - Step 3: Scroll and Verify Plugin
+2025-03-01 10:08:22 INFO  TC001_ChecklistPluginInstallation:39 - ✔ Checklist Plugin is installed successfully.
+2025-03-01 10:08:22 INFO  TC001_ChecklistPluginInstallation:44 - === Checklist Plugin Verification Completed ===
+2025-03-01 10:08:22 INFO  TC001_ChecklistPluginInstallation:50 - ===== Verify Checklist Plugin Description =====
+2025-03-01 10:08:22 INFO  TC001_ChecklistPluginInstallation:56 - Checklist Plugin description is correct.
+2025-03-01 10:08:22 INFO  TC001_ChecklistPluginInstallation:61 - === Checklist Plugin Description Verification Completed ===
+2025-03-01 10:08:22 INFO  TC001_ChecklistPluginInstallation:67 - ===== Verify Knowledge Base Link Navigation =====
+2025-03-01 10:08:24 INFO  TC001_ChecklistPluginInstallation:74 - ✔ Successfully navigated to the Knowledge Base page.
+2025-03-01 10:08:24 INFO  TC001_ChecklistPluginInstallation:79 - === Knowledge Base Link Navigation Test Completed ===
+2025-03-01 10:08:24 INFO  TC001_ChecklistPluginInstallation:85 - ===== Verify Checklist Author Website Navigation =====
+2025-03-01 10:08:27 INFO  TC001_ChecklistPluginInstallation:92 - ✔ Successfully navigated to the Checklist Author's page.
+2025-03-01 10:08:27 INFO  TC001_ChecklistPluginInstallation:97 - === Checklist Author Website Link Navigation Test Completed ===
+2025-03-01 10:08:37 INFO  TC002_ChecklistBlockClosingDisabled:16 - === TC002: Verify Issue will close with or without checklist when BlockIssue is disable - Start Execution ===
+2025-03-01 10:08:37 INFO  TC002_ChecklistBlockClosingDisabled:18 - Step 1: Login as admin
+2025-03-01 10:08:37 INFO  TC002_ChecklistBlockClosingDisabled:152 - ===== Login - Start Execution =====
+2025-03-01 10:08:37 INFO  TC002_ChecklistBlockClosingDisabled:158 - Step 1: Login with provided credentials
+2025-03-01 10:08:38 INFO  TC002_ChecklistBlockClosingDisabled:163 - Login successful for user: admin
+2025-03-01 10:08:38 INFO  TC002_ChecklistBlockClosingDisabled:168 - === Login Test Completed ===
+2025-03-01 10:08:38 INFO  TC002_ChecklistBlockClosingDisabled:21 - Step 2: Navigate to Checklist plugin Configuration
+2025-03-01 10:08:39 INFO  TC002_ChecklistBlockClosingDisabled:27 - Step 3: Disable Block Issue Closing and Click on apply
+2025-03-01 10:08:40 INFO  TC002_ChecklistBlockClosingDisabled:32 - Block issue closing box is unchecked
+2025-03-01 10:08:40 INFO  TC002_ChecklistBlockClosingDisabled:37 - === Configure Checklist Plugin - Disabled ' block issue closing'- Method Executed ===
+2025-03-01 10:08:40 INFO  TC002_ChecklistBlockClosingDisabled:47 - Verify Issue should be closed without Any checklist
+2025-03-01 10:08:40 INFO  TC002_ChecklistBlockClosingDisabled:49 - Step 4: navigate to issue list page of a project
+2025-03-01 10:08:41 INFO  TC002_ChecklistBlockClosingDisabled:54 - Step 5: Create new issue
+2025-03-01 10:08:41 INFO  TC002_ChecklistBlockClosingDisabled:181 - Click on Add new issue btn
+2025-03-01 10:08:42 INFO  TC002_ChecklistBlockClosingDisabled:183 - Enter subject for issue
+2025-03-01 10:08:42 INFO  TC002_ChecklistBlockClosingDisabled:185 - Click on create btn to create issue
+2025-03-01 10:08:43 INFO  TC002_ChecklistBlockClosingDisabled:57 - Step 6: Select Closed status from dropdown and submit form
+2025-03-01 10:08:43 INFO  TC002_ChecklistBlockClosingDisabled:193 - Click on edit button on issue detail form of 355
+2025-03-01 10:08:43 INFO  TC002_ChecklistBlockClosingDisabled:195 - select closed status
+2025-03-01 10:08:44 INFO  TC002_ChecklistBlockClosingDisabled:197 - Click on Submit button
+2025-03-01 10:08:44 INFO  TC002_ChecklistBlockClosingDisabled:59 - Test pass - Issue is successfully closed!
+2025-03-01 10:08:44 INFO  TC002_ChecklistBlockClosingDisabled:65 - === Verify Issue should be closed without Any checklist - execution is completed ===
+2025-03-01 10:08:44 INFO  TC002_ChecklistBlockClosingDisabled:71 - === Verify without checking checklists or sub Checklist issue should be closed ===
+2025-03-01 10:08:44 INFO  TC002_ChecklistBlockClosingDisabled:76 - Step 7: Go to issue list from issue detail page
+2025-03-01 10:08:45 INFO  TC002_ChecklistBlockClosingDisabled:79 - Step 8: Create new issue
+2025-03-01 10:08:45 INFO  TC002_ChecklistBlockClosingDisabled:181 - Click on Add new issue btn
+2025-03-01 10:08:45 INFO  TC002_ChecklistBlockClosingDisabled:183 - Enter subject for issue
+2025-03-01 10:08:45 INFO  TC002_ChecklistBlockClosingDisabled:185 - Click on create btn to create issue
+2025-03-01 10:08:46 INFO  TC002_ChecklistBlockClosingDisabled:82 - Step 9: Create Parent Checklist
+2025-03-01 10:08:46 INFO  TC002_ChecklistBlockClosingDisabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:08:47 INFO  TC002_ChecklistBlockClosingDisabled:213 - Click add button of Checklist Dropdown
+2025-03-01 10:08:47 INFO  TC002_ChecklistBlockClosingDisabled:215 - Enter checklist name in Checklist field
+2025-03-01 10:08:47 INFO  TC002_ChecklistBlockClosingDisabled:217 - Click Enter to create checklist
+2025-03-01 10:08:47 INFO  TC002_ChecklistBlockClosingDisabled:86 - odJVsFztwg: is created
+2025-03-01 10:08:47 INFO  TC002_ChecklistBlockClosingDisabled:88 - Step 10: Enter subchecklist name
+2025-03-01 10:08:47 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 10:08:48 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 10:08:48 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 10:08:48 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 10:08:48 INFO  TC002_ChecklistBlockClosingDisabled:92 - Step 11: Select Closed status from dropdown and submit form
+2025-03-01 10:08:48 INFO  TC002_ChecklistBlockClosingDisabled:193 - Click on edit button on issue detail form of 356
+2025-03-01 10:08:49 INFO  TC002_ChecklistBlockClosingDisabled:195 - select closed status
+2025-03-01 10:08:49 INFO  TC002_ChecklistBlockClosingDisabled:197 - Click on Submit button
+2025-03-01 10:08:50 INFO  TC002_ChecklistBlockClosingDisabled:94 - Test pass Issue is successfully closed!
+2025-03-01 10:08:50 INFO  TC002_ChecklistBlockClosingDisabled:99 - === Verify without checking checklists or sub Checklist issue should be closed - Execution is completed ===
+2025-03-01 10:08:50 INFO  TC002_ChecklistBlockClosingDisabled:105 - === Verify that the issue closes after completing the checklist when block issue closing disabled ===
+2025-03-01 10:08:50 INFO  TC002_ChecklistBlockClosingDisabled:108 - Step 11: Navigate to the issue list from the issue detail page
+2025-03-01 10:08:51 INFO  TC002_ChecklistBlockClosingDisabled:111 - Step 12: Create a issue
+2025-03-01 10:08:51 INFO  TC002_ChecklistBlockClosingDisabled:181 - Click on Add new issue btn
+2025-03-01 10:08:51 INFO  TC002_ChecklistBlockClosingDisabled:183 - Enter subject for issue
+2025-03-01 10:08:51 INFO  TC002_ChecklistBlockClosingDisabled:185 - Click on create btn to create issue
+2025-03-01 10:08:52 INFO  TC002_ChecklistBlockClosingDisabled:114 - Step 13: Create parent Checklists
+2025-03-01 10:08:52 INFO  TC002_ChecklistBlockClosingDisabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:08:52 INFO  TC002_ChecklistBlockClosingDisabled:213 - Click add button of Checklist Dropdown
+2025-03-01 10:08:53 INFO  TC002_ChecklistBlockClosingDisabled:215 - Enter checklist name in Checklist field
+2025-03-01 10:08:53 INFO  TC002_ChecklistBlockClosingDisabled:217 - Click Enter to create checklist
+2025-03-01 10:08:53 INFO  TC002_ChecklistBlockClosingDisabled:118 - Parent Checklist 'pdKXVFVshA' is created
+2025-03-01 10:08:53 INFO  TC002_ChecklistBlockClosingDisabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:08:54 INFO  TC002_ChecklistBlockClosingDisabled:213 - Click add button of Checklist Dropdown
+2025-03-01 10:08:54 INFO  TC002_ChecklistBlockClosingDisabled:215 - Enter checklist name in Checklist field
+2025-03-01 10:08:54 INFO  TC002_ChecklistBlockClosingDisabled:217 - Click Enter to create checklist
+2025-03-01 10:08:54 INFO  TC002_ChecklistBlockClosingDisabled:123 - Parent Checklist 'paZQsVRccznUSb' is created
+2025-03-01 10:08:57 INFO  TC002_ChecklistBlockClosingDisabled:127 - Step 14: add subchecklists in 1st parentchecklist
+2025-03-01 10:08:57 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 10:08:58 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 10:08:58 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 10:08:59 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 10:08:59 INFO  TC002_ChecklistBlockClosingDisabled:131 - SubChecklist1 'Oyode' is created
+2025-03-01 10:08:59 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 10:08:59 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 10:09:00 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 10:09:00 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 10:09:00 INFO  TC002_ChecklistBlockClosingDisabled:135 - SubChecklist2 'LsBvh' is created
+2025-03-01 10:09:00 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 10:09:01 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 10:09:01 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 10:09:01 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 10:09:01 INFO  TC002_ChecklistBlockClosingDisabled:139 - SubChecklist3 'YxpYI' is created
+2025-03-01 10:09:04 INFO  TC002_ChecklistBlockClosingDisabled:143 - check the checkboxes of parent checklists
+2025-03-01 10:09:05 INFO  TC002_ChecklistBlockClosingDisabled:146 - Check parent and its sub checlist checkboxes are checked
+2025-03-01 10:09:05 INFO  TC002_ChecklistBlockClosingDisabled:150 - all checboxes in checklist section are checked
+2025-03-01 10:09:05 INFO  TC002_ChecklistBlockClosingDisabled:153 - Step 15: Verify that the issue is closed
+2025-03-01 10:09:05 INFO  TC002_ChecklistBlockClosingDisabled:193 - Click on edit button on issue detail form of 357
+2025-03-01 10:09:05 INFO  TC002_ChecklistBlockClosingDisabled:195 - select closed status
+2025-03-01 10:09:06 INFO  TC002_ChecklistBlockClosingDisabled:197 - Click on Submit button
+2025-03-01 10:09:27 INFO  TC002_ChecklistBlockClosingDisabled:163 - === Verifying issue closes after completing the checklist when block issue closing disabled
+2025-03-01 10:09:27 INFO  TC002_ChecklistBlockClosingDisabled:164 - ===== TC002: Verify Issue will close with or without checklist when BlockIssue is disable - Completed Execution =====
+2025-03-01 10:09:36 INFO  TC003_ChecklistBlockClosingEnabled:15 - ===== TC003: Verify Issue cannot close if any checklist item is unchecked when Block Issue is enabled - Start Execution =====
+2025-03-01 10:09:36 INFO  TC003_ChecklistBlockClosingEnabled:24 - Step 1: Login as admin
+2025-03-01 10:09:36 INFO  TC003_ChecklistBlockClosingEnabled:152 - ===== Login - Start Execution =====
+2025-03-01 10:09:36 INFO  TC003_ChecklistBlockClosingEnabled:158 - Step 1: Login with provided credentials
+2025-03-01 10:09:37 INFO  TC003_ChecklistBlockClosingEnabled:163 - Login successful for user: admin
+2025-03-01 10:09:37 INFO  TC003_ChecklistBlockClosingEnabled:168 - === Login Test Completed ===
+2025-03-01 10:09:37 INFO  TC003_ChecklistBlockClosingEnabled:27 - Step 2: Navigate to Checklist plugin → Configuration
+2025-03-01 10:09:38 INFO  TC003_ChecklistBlockClosingEnabled:34 - Step 3: Enable Block Issue Closing and Click on apply
+2025-03-01 10:09:39 INFO  TC003_ChecklistBlockClosingEnabled:43 - === Configure Checklist Plugin - Enabled 'Block Issue Closing' - Method Executed ===
+2025-03-01 10:09:39 INFO  TC003_ChecklistBlockClosingEnabled:49 - === Verify issue should close if no checklist is Created ===
+2025-03-01 10:09:39 INFO  TC003_ChecklistBlockClosingEnabled:61 - Step 4: Navigate to the issue list of a project
+2025-03-01 10:09:40 INFO  TC003_ChecklistBlockClosingEnabled:68 - Step 6: Enter Subject in issue form
+2025-03-01 10:09:40 INFO  TC003_ChecklistBlockClosingEnabled:181 - Click on Add new issue btn
+2025-03-01 10:09:41 INFO  TC003_ChecklistBlockClosingEnabled:183 - Enter subject for issue
+2025-03-01 10:09:41 INFO  TC003_ChecklistBlockClosingEnabled:185 - Click on create btn to create issue
+2025-03-01 10:09:42 INFO  TC003_ChecklistBlockClosingEnabled:73 - Step 4: Attempt to close the issue
+2025-03-01 10:09:42 INFO  TC003_ChecklistBlockClosingEnabled:193 - Click on edit button on issue detail form of 358
+2025-03-01 10:09:42 INFO  TC003_ChecklistBlockClosingEnabled:195 - select closed status
+2025-03-01 10:09:43 INFO  TC003_ChecklistBlockClosingEnabled:197 - Click on Submit button
+2025-03-01 10:09:43 INFO  TC003_ChecklistBlockClosingEnabled:75 - Test Passed: Issue can be closed if NO checklist is created.
+2025-03-01 10:09:43 INFO  TC003_ChecklistBlockClosingEnabled:80 - === Verify issue should close if any checklist is created - Execution completed ===
+2025-03-01 10:09:43 INFO  TC003_ChecklistBlockClosingEnabled:86 - === Verify issue should not close if any checklist item is unchecked ===
+2025-03-01 10:09:43 INFO  TC003_ChecklistBlockClosingEnabled:94 - Step 5: Navigate to the issue list page
+2025-03-01 10:09:44 INFO  TC003_ChecklistBlockClosingEnabled:97 - Step 6: Create issue
+2025-03-01 10:09:44 INFO  TC003_ChecklistBlockClosingEnabled:181 - Click on Add new issue btn
+2025-03-01 10:09:44 INFO  TC003_ChecklistBlockClosingEnabled:183 - Enter subject for issue
+2025-03-01 10:09:44 INFO  TC003_ChecklistBlockClosingEnabled:185 - Click on create btn to create issue
+2025-03-01 10:09:45 INFO  TC003_ChecklistBlockClosingEnabled:101 - Step 7: Add checklist item: inrRUgkgfG
+2025-03-01 10:09:45 INFO  TC003_ChecklistBlockClosingEnabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:09:46 INFO  TC003_ChecklistBlockClosingEnabled:213 - Click add button of Checklist Dropdown
+2025-03-01 10:09:46 INFO  TC003_ChecklistBlockClosingEnabled:215 - Enter checklist name in Checklist field
+2025-03-01 10:09:46 INFO  TC003_ChecklistBlockClosingEnabled:217 - Click Enter to create checklist
+2025-03-01 10:09:46 INFO  TC003_ChecklistBlockClosingEnabled:104 - Expected:parent checklist created
+2025-03-01 10:09:46 INFO  TC003_ChecklistBlockClosingEnabled:106 - Step 8: Verify that checklist is not checked
+2025-03-01 10:09:46 INFO  TC003_ChecklistBlockClosingEnabled:108 - Expected: Parent Checklist is not completed
+2025-03-01 10:09:46 INFO  TC003_ChecklistBlockClosingEnabled:110 - Step 9: Attempt to close the issue
+2025-03-01 10:09:46 INFO  TC003_ChecklistBlockClosingEnabled:193 - Click on edit button on issue detail form of 359
+2025-03-01 10:09:47 INFO  TC003_ChecklistBlockClosingEnabled:195 - select closed status
+2025-03-01 10:09:47 INFO  TC003_ChecklistBlockClosingEnabled:197 - Click on Submit button
+2025-03-01 10:10:08 INFO  TC003_ChecklistBlockClosingEnabled:112 - Test Passed: Issue cannot be closed if any checklist item is unchecked.
+2025-03-01 10:10:08 INFO  TC003_ChecklistBlockClosingEnabled:117 - === Verify issue should not close if any checklist item is unchecked - Execution completed ===
+2025-03-01 10:10:08 INFO  TC003_ChecklistBlockClosingEnabled:126 - === Verify issue should close if checklists is checked - Execution Started
+2025-03-01 10:10:08 INFO  TC003_ChecklistBlockClosingEnabled:128 - Step 10: navigate back on issue detail page
+2025-03-01 10:10:08 INFO  TC003_ChecklistBlockClosingEnabled:131 - Step 11: check parentchecklist checklist
+2025-03-01 10:10:09 INFO  TC003_ChecklistBlockClosingEnabled:135 - Step 12: Close the issue after completing checklist
+2025-03-01 10:10:09 INFO  TC003_ChecklistBlockClosingEnabled:193 - Click on edit button on issue detail form of 359
+2025-03-01 10:10:09 INFO  TC003_ChecklistBlockClosingEnabled:195 - select closed status
+2025-03-01 10:10:10 INFO  TC003_ChecklistBlockClosingEnabled:197 - Click on Submit button
+2025-03-01 10:10:10 INFO  TC003_ChecklistBlockClosingEnabled:138 - the issue is successfully closed
+2025-03-01 10:10:10 INFO  TC003_ChecklistBlockClosingEnabled:141 - ✅ Test Passed: Issue is automatically closed after checking all checklist items.
+2025-03-01 10:10:10 INFO  TC003_ChecklistBlockClosingEnabled:146 - === Verify issue should close if checklists is checked - Execution Started
+2025-03-01 10:10:20 INFO  TC004_CURDOperationWithEditIssuePermission:16 - ===== TC004: Verify user with Edit Issue Permission can perform curd operation -Start Execution =====
+2025-03-01 10:10:20 INFO  TC004_CURDOperationWithEditIssuePermission:23 - Step 1: Login with user who have permission edit issue 
+2025-03-01 10:10:20 INFO  TC004_CURDOperationWithEditIssuePermission:152 - ===== Login - Start Execution =====
+2025-03-01 10:10:20 INFO  TC004_CURDOperationWithEditIssuePermission:158 - Step 1: Login with provided credentials
+2025-03-01 10:10:20 INFO  TC004_CURDOperationWithEditIssuePermission:163 - Login successful for user: john
+2025-03-01 10:10:20 INFO  TC004_CURDOperationWithEditIssuePermission:168 - === Login Test Completed ===
+2025-03-01 10:10:20 INFO  TC004_CURDOperationWithEditIssuePermission:26 - Step 2: Go to issue list of project
+2025-03-01 10:10:22 INFO  TC004_CURDOperationWithEditIssuePermission:31 - Step 3: Create Issue
+2025-03-01 10:10:22 INFO  TC004_CURDOperationWithEditIssuePermission:181 - Click on Add new issue btn
+2025-03-01 10:10:23 INFO  TC004_CURDOperationWithEditIssuePermission:183 - Enter subject for issue
+2025-03-01 10:10:23 INFO  TC004_CURDOperationWithEditIssuePermission:185 - Click on create btn to create issue
+2025-03-01 10:10:23 INFO  TC004_CURDOperationWithEditIssuePermission:34 - Step 4: Create two Parent checklists
+2025-03-01 10:10:23 INFO  TC004_CURDOperationWithEditIssuePermission:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:10:24 INFO  TC004_CURDOperationWithEditIssuePermission:213 - Click add button of Checklist Dropdown
+2025-03-01 10:10:25 INFO  TC004_CURDOperationWithEditIssuePermission:215 - Enter checklist name in Checklist field
+2025-03-01 10:10:25 INFO  TC004_CURDOperationWithEditIssuePermission:217 - Click Enter to create checklist
+2025-03-01 10:10:25 INFO  TC004_CURDOperationWithEditIssuePermission:38 - Parent Checklist 'Test' is created
+2025-03-01 10:10:25 INFO  TC004_CURDOperationWithEditIssuePermission:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:10:25 INFO  TC004_CURDOperationWithEditIssuePermission:213 - Click add button of Checklist Dropdown
+2025-03-01 10:10:26 INFO  TC004_CURDOperationWithEditIssuePermission:215 - Enter checklist name in Checklist field
+2025-03-01 10:10:26 INFO  TC004_CURDOperationWithEditIssuePermission:217 - Click Enter to create checklist
+2025-03-01 10:10:26 INFO  TC004_CURDOperationWithEditIssuePermission:42 - Parent Checklist 'bnhapaFNZw' is created
+2025-03-01 10:10:26 INFO  TC004_CURDOperationWithEditIssuePermission:45 - Step 5: Create SubChecklists in parent
+2025-03-01 10:10:26 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:10:27 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:10:27 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:10:27 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:10:27 INFO  TC004_CURDOperationWithEditIssuePermission:49 - subchecklist 1 created
+2025-03-01 10:10:27 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:10:28 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:10:28 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:10:28 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:10:29 INFO  TC004_CURDOperationWithEditIssuePermission:53 - subchecklist 2 created
+2025-03-01 10:10:29 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:10:29 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:10:30 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:10:30 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:10:30 INFO  TC004_CURDOperationWithEditIssuePermission:57 - subchecklist 3 created
+2025-03-01 10:10:30 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:10:31 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:10:31 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:10:31 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:10:31 INFO  TC004_CURDOperationWithEditIssuePermission:63 - subchecklist 1 created in 2nd parentchecklist
+2025-03-01 10:10:31 INFO  TC004_CURDOperationWithEditIssuePermission:75 - Verify The duplicate parent checklist and subchecklist should not be created on same issue
+2025-03-01 10:10:31 INFO  TC004_CURDOperationWithEditIssuePermission:77 - Create same name parent checklist
+2025-03-01 10:10:31 INFO  TC004_CURDOperationWithEditIssuePermission:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:10:32 INFO  TC004_CURDOperationWithEditIssuePermission:213 - Click add button of Checklist Dropdown
+2025-03-01 10:10:32 INFO  TC004_CURDOperationWithEditIssuePermission:215 - Enter checklist name in Checklist field
+2025-03-01 10:10:32 INFO  TC004_CURDOperationWithEditIssuePermission:217 - Click Enter to create checklist
+2025-03-01 10:10:32 INFO  TC004_CURDOperationWithEditIssuePermission:82 - Same Checklist is not created
+2025-03-01 10:10:32 INFO  TC004_CURDOperationWithEditIssuePermission:84 - Create same name Subchecklist checklist
+2025-03-01 10:10:32 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:10:33 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:10:53 ERROR TC004_CURDOperationWithEditIssuePermission:92 - Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class, 'checklist_option_dropdown') and not(contains(@style, 'display: none'))]//a[1]' (tried for 5 second(s) with 500 milliseconds interval)
+2025-03-01 10:10:53 INFO  TC004_CURDOperationWithEditIssuePermission:101 - Step 9: updated created 1st parent checklist
+2025-03-01 10:10:53 INFO  TC004_CURDOperationWithEditIssuePermission:237 - Click on three dot of parentchecklist
+2025-03-01 10:10:54 INFO  TC004_CURDOperationWithEditIssuePermission:239 - Click edit button
+2025-03-01 10:10:54 INFO  TC004_CURDOperationWithEditIssuePermission:241 - Update checklist name
+2025-03-01 10:10:55 INFO  TC004_CURDOperationWithEditIssuePermission:243 - Click on Enter
+2025-03-01 10:10:55 INFO  TC004_CURDOperationWithEditIssuePermission:105 - 1st parent Checklist is updated
+2025-03-01 10:10:55 INFO  TC004_CURDOperationWithEditIssuePermission:107 - update 1st subChecklist name
+2025-03-01 10:10:56 INFO  TC004_CURDOperationWithEditIssuePermission:121 - Verify Checklist should be delete checklist and subchecklist
+2025-03-01 10:10:56 INFO  TC004_CURDOperationWithEditIssuePermission:123 - Delete sub checklist from 1st parentChecklist
+2025-03-01 10:10:56 INFO  TC004_CURDOperationWithEditIssuePermission:271 - Click on Three Dot of Sub Checklist
+2025-03-01 10:10:56 INFO  TC004_CURDOperationWithEditIssuePermission:273 - Click on Delete button
+2025-03-01 10:10:57 INFO  TC004_CURDOperationWithEditIssuePermission:275 - Click on Confirm button In Delete Cheklist popup
+2025-03-01 10:11:04 INFO  TC004_CURDOperationWithEditIssuePermission:129 - SubChecklist Checklist Deleted Successfully
+2025-03-01 10:11:04 INFO  TC004_CURDOperationWithEditIssuePermission:131 - Delete 2nd parentChecklist
+2025-03-01 10:11:04 INFO  TC004_CURDOperationWithEditIssuePermission:260 - Click on Three Dot of Parent Checklist
+2025-03-01 10:11:04 INFO  TC004_CURDOperationWithEditIssuePermission:262 - Click on Delete button
+2025-03-01 10:11:05 INFO  TC004_CURDOperationWithEditIssuePermission:264 - Click on Confirm button In Delete Checklist popup
+2025-03-01 10:11:08 INFO  TC004_CURDOperationWithEditIssuePermission:135 - parent Checklist Deleted Successfully
+2025-03-01 10:11:08 INFO  TC004_CURDOperationWithEditIssuePermission:142 - Verify user with Edit Issue Permission can perform curd operation
+2025-03-01 10:11:08 INFO  TC004_CURDOperationWithEditIssuePermission:143 - ===== TC004: Verify user with Edit Issue Permission can perform curd operation - Completed Execution =====
+2025-03-01 10:11:18 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:11 - ===== TC006: Verify user without Edit Issue Permission can not Create checklist - Start Execution =====
+2025-03-01 10:11:18 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:20 - Step 1: Login with user who do not have permission edit issue 
+2025-03-01 10:11:18 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:152 - ===== Login - Start Execution =====
+2025-03-01 10:11:18 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:158 - Step 1: Login with provided credentials
+2025-03-01 10:11:18 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:163 - Login successful for user: Sophia
+2025-03-01 10:11:18 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:168 - === Login Test Completed ===
+2025-03-01 10:11:18 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:23 - Step 2: go to issue list page of project
+2025-03-01 10:11:20 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:29 - Step 3: Create issue
+2025-03-01 10:11:20 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:181 - Click on Add new issue btn
+2025-03-01 10:11:21 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:183 - Enter subject for issue
+2025-03-01 10:11:21 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:185 - Click on create btn to create issue
+2025-03-01 10:11:22 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:32 - Step 4: Check Action or three dot button is not clickable
+2025-03-01 10:11:22 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:40 - TC006: Verify user without Edit Issue Permission can not Create checklist-- Completed
+2025-03-01 10:11:31 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:21 - ===== TC005: Verify After closing issue checklist is not modified -Start Execution =====
+2025-03-01 10:11:31 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:28 - Step 1: Login with user who have permission edit issue 
+2025-03-01 10:11:31 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:152 - ===== Login - Start Execution =====
+2025-03-01 10:11:31 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:158 - Step 1: Login with provided credentials
+2025-03-01 10:11:32 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:163 - Login successful for user: john
+2025-03-01 10:11:32 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:168 - === Login Test Completed ===
+2025-03-01 10:11:32 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:31 - Step 2: Go to issue list of a project
+2025-03-01 10:11:34 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:36 - Step 2: Create a issue
+2025-03-01 10:11:34 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:181 - Click on Add new issue btn
+2025-03-01 10:11:34 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:183 - Enter subject for issue
+2025-03-01 10:11:34 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:185 - Click on create btn to create issue
+2025-03-01 10:11:35 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:39 - Step 3: Create 2 Parent checklist
+2025-03-01 10:11:35 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:11:36 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:213 - Click add button of Checklist Dropdown
+2025-03-01 10:11:36 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:215 - Enter checklist name in Checklist field
+2025-03-01 10:11:36 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:217 - Click Enter to create checklist
+2025-03-01 10:11:36 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:11:37 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:213 - Click add button of Checklist Dropdown
+2025-03-01 10:11:37 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:215 - Enter checklist name in Checklist field
+2025-03-01 10:11:38 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:217 - Click Enter to create checklist
+2025-03-01 10:11:38 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:48 - Step 4: Create SubChecklists in parent
+2025-03-01 10:11:38 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:11:38 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:11:39 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:11:39 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:11:39 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:11:40 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:11:40 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:11:40 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:11:40 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:11:41 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:11:41 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:11:41 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:11:41 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:63 - Step 5: create sub checklist in 2nd parent checklist
+2025-03-01 10:11:41 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:11:42 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:11:43 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:11:43 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:11:43 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:69 - step 6: check the parents checkbox
+2025-03-01 10:11:47 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:75 - Step 11: close issue after completing checklist
+2025-03-01 10:11:47 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:193 - Click on edit button on issue detail form of 362
+2025-03-01 10:11:48 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:195 - select closed status
+2025-03-01 10:11:48 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:197 - Click on Submit button
+2025-03-01 10:11:49 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:78 - Step 12: Verifing checkbox threedots are not enabled
+2025-03-01 10:11:50 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:98 - Test passed: Checklist is not editable after closing issue
+2025-03-01 10:11:50 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:105 - ===== TC005: Verify After closing issue checklist is not modified - Execution Completed =====
+2025-03-01 10:12:00 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:16 - ===== TC007: Verify After Selecting input checkbox of parent checklist progress bar 100% completed and subchecklist also completed=====
+2025-03-01 10:12:00 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:23 - Step 1: Login with user who have permission edit issue 
+2025-03-01 10:12:00 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:152 - ===== Login - Start Execution =====
+2025-03-01 10:12:00 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:158 - Step 1: Login with provided credentials
+2025-03-01 10:12:00 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:163 - Login successful for user: john
+2025-03-01 10:12:00 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:168 - === Login Test Completed ===
+2025-03-01 10:12:00 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:26 - Step 2: Go to issue list of project
+2025-03-01 10:12:02 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:31 - Step 3: Enter Subject in issue form and clickToOpenProject on create button
+2025-03-01 10:12:02 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:181 - Click on Add new issue btn
+2025-03-01 10:12:03 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:183 - Enter subject for issue
+2025-03-01 10:12:03 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:185 - Click on create btn to create issue
+2025-03-01 10:12:03 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:34 - Step 4: Create 2 Parent checklist
+2025-03-01 10:12:03 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:12:04 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:213 - Click add button of Checklist Dropdown
+2025-03-01 10:12:04 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:215 - Enter checklist name in Checklist field
+2025-03-01 10:12:04 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:217 - Click Enter to create checklist
+2025-03-01 10:12:05 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:12:05 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:213 - Click add button of Checklist Dropdown
+2025-03-01 10:12:06 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:215 - Enter checklist name in Checklist field
+2025-03-01 10:12:06 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:217 - Click Enter to create checklist
+2025-03-01 10:12:06 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:41 - Parent checklist are created
+2025-03-01 10:12:06 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:43 - Step 5: Create SubChecklists in parent
+2025-03-01 10:12:06 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:12:07 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:12:07 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:12:07 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:12:07 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:12:08 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:12:08 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:12:08 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:12:09 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:12:09 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:12:10 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:12:10 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:12:10 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:57 - Step 6: create sub checklist in 2nd parent checklist
+2025-03-01 10:12:10 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:12:11 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:12:11 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:12:11 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:12:11 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:12:12 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:12:12 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:12:12 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:12:12 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:65 - step 6: check the parents checkbox
+2025-03-01 10:12:13 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:72 - step 8: check progress bar ofnyvRLUAlvr and sub checklist checkbox check
+2025-03-01 10:12:16 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:78 - Test pass: on checking parentchecklist and all subchecklist check boxes are checked
+2025-03-01 10:12:16 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:80 - Step 9: Verify progress bar width 100% of first parent checklist
+2025-03-01 10:12:16 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:82 - Test pass: parent Checklist bar is 100%
+2025-03-01 10:12:16 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:84 - Step 10: Verify all sub checklist dropdown in done stage
+2025-03-01 10:12:16 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:88 - Test pass: Done is selected in All sub checlist dropdowns of parentchecklist
+2025-03-01 10:12:16 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:99 - Verify Checking Subchecklist one by one then progress bar increases
+2025-03-01 10:12:16 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:102 - Step 1: check 1st subchecklist and progress bar should increase 50%
+2025-03-01 10:12:18 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:108 - Test pass- on checking one checklist out of two subcehcklist progess bar increase 50%
+2025-03-01 10:12:18 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:110 - Step 2: After checking 2nd subchecklist progress bar should increase 100%
+2025-03-01 10:12:21 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:116 - Test pass- on checking last sub checklist progess bar increase 100%
+2025-03-01 10:12:30 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:15 - === TC008: Verify that Checklist template created for bug tracker and use on bug issue detail page - Start Execution ===
+2025-03-01 10:12:30 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:17 - Step 1: Login as admin
+2025-03-01 10:12:30 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:152 - ===== Login - Start Execution =====
+2025-03-01 10:12:30 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:158 - Step 1: Login with provided credentials
+2025-03-01 10:12:31 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:163 - Login successful for user: admin
+2025-03-01 10:12:31 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:168 - === Login Test Completed ===
+2025-03-01 10:12:31 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:20 - Step 2: Navigate to Checklist plugin Configuration
+2025-03-01 10:12:32 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:26 - Step 3: Go to Checklist template tab
+2025-03-01 10:12:33 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:42 - Step 4: Click on add new Checklist btn
+2025-03-01 10:12:35 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:83 - Verify Checklist Creation from Template
+2025-03-01 10:12:35 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:85 - Step 5: navigate to issue list page of a project
+2025-03-01 10:12:36 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:90 - Step 6: Create new issue
+2025-03-01 10:12:36 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:181 - Click on Add new issue btn
+2025-03-01 10:12:37 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:183 - Enter subject for issue
+2025-03-01 10:12:37 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:185 - Click on create btn to create issue
+2025-03-01 10:12:38 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:93 - Step 7: Add Checklist from list
+2025-03-01 10:12:39 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:98 - Step 8: Verify Checklist Created or not from template
+2025-03-01 10:12:40 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:108 - Test pass - Checklist are add from template
+2025-03-01 10:12:40 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:114 - === TC008: Verify that Checklist template created for bug tracker and use on bug issue detail page -Exection completed ===
+2025-03-01 10:12:51 INFO  TC001_ChecklistPluginInstallation:29 - ===== TC001: Verify Checklist Plugin Installation - Start =====
+2025-03-01 10:12:51 INFO  TC001_ChecklistPluginInstallation:152 - ===== Login - Start Execution =====
+2025-03-01 10:12:51 INFO  TC001_ChecklistPluginInstallation:158 - Step 1: Login with provided credentials
+2025-03-01 10:12:52 INFO  TC001_ChecklistPluginInstallation:163 - Login successful for user: admin
+2025-03-01 10:12:52 INFO  TC001_ChecklistPluginInstallation:168 - === Login Test Completed ===
+2025-03-01 10:12:52 INFO  TC001_ChecklistPluginInstallation:106 - Navigating to Administration → Plugins
+2025-03-01 10:12:53 INFO  TC001_ChecklistPluginInstallation:34 - Step 3: Scroll and Verify Plugin
+2025-03-01 10:12:53 INFO  TC001_ChecklistPluginInstallation:39 - ✔ Checklist Plugin is installed successfully.
+2025-03-01 10:12:53 INFO  TC001_ChecklistPluginInstallation:44 - === Checklist Plugin Verification Completed ===
+2025-03-01 10:12:53 INFO  TC001_ChecklistPluginInstallation:50 - ===== Verify Checklist Plugin Description =====
+2025-03-01 10:12:53 INFO  TC001_ChecklistPluginInstallation:56 - Checklist Plugin description is correct.
+2025-03-01 10:12:53 INFO  TC001_ChecklistPluginInstallation:61 - === Checklist Plugin Description Verification Completed ===
+2025-03-01 10:12:53 INFO  TC001_ChecklistPluginInstallation:67 - ===== Verify Knowledge Base Link Navigation =====
+2025-03-01 10:12:59 INFO  TC001_ChecklistPluginInstallation:74 - ✔ Successfully navigated to the Knowledge Base page.
+2025-03-01 10:12:59 INFO  TC001_ChecklistPluginInstallation:79 - === Knowledge Base Link Navigation Test Completed ===
+2025-03-01 10:12:59 INFO  TC001_ChecklistPluginInstallation:85 - ===== Verify Checklist Author Website Navigation =====
+2025-03-01 10:13:05 INFO  TC001_ChecklistPluginInstallation:92 - ✔ Successfully navigated to the Checklist Author's page.
+2025-03-01 10:13:05 INFO  TC001_ChecklistPluginInstallation:97 - === Checklist Author Website Link Navigation Test Completed ===
+2025-03-01 10:13:11 INFO  TC002_ChecklistBlockClosingDisabled:16 - === TC002: Verify Issue will close with or without checklist when BlockIssue is disable - Start Execution ===
+2025-03-01 10:13:11 INFO  TC002_ChecklistBlockClosingDisabled:18 - Step 1: Login as admin
+2025-03-01 10:13:11 INFO  TC002_ChecklistBlockClosingDisabled:152 - ===== Login - Start Execution =====
+2025-03-01 10:13:11 INFO  TC002_ChecklistBlockClosingDisabled:158 - Step 1: Login with provided credentials
+2025-03-01 10:13:12 INFO  TC002_ChecklistBlockClosingDisabled:163 - Login successful for user: admin
+2025-03-01 10:13:12 INFO  TC002_ChecklistBlockClosingDisabled:168 - === Login Test Completed ===
+2025-03-01 10:13:12 INFO  TC002_ChecklistBlockClosingDisabled:21 - Step 2: Navigate to Checklist plugin Configuration
+2025-03-01 10:13:14 INFO  TC002_ChecklistBlockClosingDisabled:27 - Step 3: Disable Block Issue Closing and Click on apply
+2025-03-01 10:13:15 INFO  TC002_ChecklistBlockClosingDisabled:32 - Block issue closing box is unchecked
+2025-03-01 10:13:15 INFO  TC002_ChecklistBlockClosingDisabled:37 - === Configure Checklist Plugin - Disabled ' block issue closing'- Method Executed ===
+2025-03-01 10:13:15 INFO  TC002_ChecklistBlockClosingDisabled:47 - Verify Issue should be closed without Any checklist
+2025-03-01 10:13:15 INFO  TC002_ChecklistBlockClosingDisabled:49 - Step 4: navigate to issue list page of a project
+2025-03-01 10:13:17 INFO  TC002_ChecklistBlockClosingDisabled:54 - Step 5: Create new issue
+2025-03-01 10:13:17 INFO  TC002_ChecklistBlockClosingDisabled:181 - Click on Add new issue btn
+2025-03-01 10:13:18 INFO  TC002_ChecklistBlockClosingDisabled:183 - Enter subject for issue
+2025-03-01 10:13:18 INFO  TC002_ChecklistBlockClosingDisabled:185 - Click on create btn to create issue
+2025-03-01 10:13:19 INFO  TC002_ChecklistBlockClosingDisabled:57 - Step 6: Select Closed status from dropdown and submit form
+2025-03-01 10:13:19 INFO  TC002_ChecklistBlockClosingDisabled:193 - Click on edit button on issue detail form of 365
+2025-03-01 10:13:19 INFO  TC002_ChecklistBlockClosingDisabled:195 - select closed status
+2025-03-01 10:13:20 INFO  TC002_ChecklistBlockClosingDisabled:197 - Click on Submit button
+2025-03-01 10:13:21 INFO  TC002_ChecklistBlockClosingDisabled:59 - Test pass - Issue is successfully closed!
+2025-03-01 10:13:21 INFO  TC002_ChecklistBlockClosingDisabled:65 - === Verify Issue should be closed without Any checklist - execution is completed ===
+2025-03-01 10:13:21 INFO  TC002_ChecklistBlockClosingDisabled:71 - === Verify without checking checklists or sub Checklist issue should be closed ===
+2025-03-01 10:13:21 INFO  TC002_ChecklistBlockClosingDisabled:76 - Step 7: Go to issue list from issue detail page
+2025-03-01 10:13:21 INFO  TC002_ChecklistBlockClosingDisabled:79 - Step 8: Create new issue
+2025-03-01 10:13:21 INFO  TC002_ChecklistBlockClosingDisabled:181 - Click on Add new issue btn
+2025-03-01 10:13:22 INFO  TC002_ChecklistBlockClosingDisabled:183 - Enter subject for issue
+2025-03-01 10:13:22 INFO  TC002_ChecklistBlockClosingDisabled:185 - Click on create btn to create issue
+2025-03-01 10:13:23 INFO  TC002_ChecklistBlockClosingDisabled:82 - Step 9: Create Parent Checklist
+2025-03-01 10:13:23 INFO  TC002_ChecklistBlockClosingDisabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:13:24 INFO  TC002_ChecklistBlockClosingDisabled:213 - Click add button of Checklist Dropdown
+2025-03-01 10:13:24 INFO  TC002_ChecklistBlockClosingDisabled:215 - Enter checklist name in Checklist field
+2025-03-01 10:13:24 INFO  TC002_ChecklistBlockClosingDisabled:217 - Click Enter to create checklist
+2025-03-01 10:13:24 INFO  TC002_ChecklistBlockClosingDisabled:86 - eInmPpcbtz: is created
+2025-03-01 10:13:24 INFO  TC002_ChecklistBlockClosingDisabled:88 - Step 10: Enter subchecklist name
+2025-03-01 10:13:24 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 10:13:25 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 10:13:25 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 10:13:26 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 10:13:26 INFO  TC002_ChecklistBlockClosingDisabled:92 - Step 11: Select Closed status from dropdown and submit form
+2025-03-01 10:13:26 INFO  TC002_ChecklistBlockClosingDisabled:193 - Click on edit button on issue detail form of 366
+2025-03-01 10:13:27 INFO  TC002_ChecklistBlockClosingDisabled:195 - select closed status
+2025-03-01 10:13:27 INFO  TC002_ChecklistBlockClosingDisabled:197 - Click on Submit button
+2025-03-01 10:13:28 INFO  TC002_ChecklistBlockClosingDisabled:94 - Test pass Issue is successfully closed!
+2025-03-01 10:13:28 INFO  TC002_ChecklistBlockClosingDisabled:99 - === Verify without checking checklists or sub Checklist issue should be closed - Execution is completed ===
+2025-03-01 10:13:28 INFO  TC002_ChecklistBlockClosingDisabled:105 - === Verify that the issue closes after completing the checklist when block issue closing disabled ===
+2025-03-01 10:13:28 INFO  TC002_ChecklistBlockClosingDisabled:108 - Step 11: Navigate to the issue list from the issue detail page
+2025-03-01 10:13:29 INFO  TC002_ChecklistBlockClosingDisabled:111 - Step 12: Create a issue
+2025-03-01 10:13:29 INFO  TC002_ChecklistBlockClosingDisabled:181 - Click on Add new issue btn
+2025-03-01 10:13:29 INFO  TC002_ChecklistBlockClosingDisabled:183 - Enter subject for issue
+2025-03-01 10:13:30 INFO  TC002_ChecklistBlockClosingDisabled:185 - Click on create btn to create issue
+2025-03-01 10:13:31 INFO  TC002_ChecklistBlockClosingDisabled:114 - Step 13: Create parent Checklists
+2025-03-01 10:13:31 INFO  TC002_ChecklistBlockClosingDisabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:13:31 INFO  TC002_ChecklistBlockClosingDisabled:213 - Click add button of Checklist Dropdown
+2025-03-01 10:13:32 INFO  TC002_ChecklistBlockClosingDisabled:215 - Enter checklist name in Checklist field
+2025-03-01 10:13:32 INFO  TC002_ChecklistBlockClosingDisabled:217 - Click Enter to create checklist
+2025-03-01 10:13:32 INFO  TC002_ChecklistBlockClosingDisabled:118 - Parent Checklist 'xiaACtDzCX' is created
+2025-03-01 10:13:32 INFO  TC002_ChecklistBlockClosingDisabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:13:33 INFO  TC002_ChecklistBlockClosingDisabled:213 - Click add button of Checklist Dropdown
+2025-03-01 10:13:33 INFO  TC002_ChecklistBlockClosingDisabled:215 - Enter checklist name in Checklist field
+2025-03-01 10:13:33 INFO  TC002_ChecklistBlockClosingDisabled:217 - Click Enter to create checklist
+2025-03-01 10:13:33 INFO  TC002_ChecklistBlockClosingDisabled:123 - Parent Checklist 'STCbJHRJCCSQem' is created
+2025-03-01 10:13:36 INFO  TC002_ChecklistBlockClosingDisabled:127 - Step 14: add subchecklists in 1st parentchecklist
+2025-03-01 10:13:36 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 10:13:37 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 10:13:37 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 10:13:37 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 10:13:38 INFO  TC002_ChecklistBlockClosingDisabled:131 - SubChecklist1 'faWxp' is created
+2025-03-01 10:13:38 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 10:13:38 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 10:13:39 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 10:13:39 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 10:13:39 INFO  TC002_ChecklistBlockClosingDisabled:135 - SubChecklist2 'yXpAs' is created
+2025-03-01 10:13:39 INFO  TC002_ChecklistBlockClosingDisabled:224 - Click on three dot of parentchecklist
+2025-03-01 10:13:40 INFO  TC002_ChecklistBlockClosingDisabled:226 - Click on add subchecklist btn
+2025-03-01 10:13:40 INFO  TC002_ChecklistBlockClosingDisabled:228 - Enter subchecklist name
+2025-03-01 10:13:40 INFO  TC002_ChecklistBlockClosingDisabled:230 - Click on Enter button
+2025-03-01 10:13:40 INFO  TC002_ChecklistBlockClosingDisabled:139 - SubChecklist3 'uNHIK' is created
+2025-03-01 10:13:43 INFO  TC002_ChecklistBlockClosingDisabled:143 - check the checkboxes of parent checklists
+2025-03-01 10:13:44 INFO  TC002_ChecklistBlockClosingDisabled:146 - Check parent and its sub checlist checkboxes are checked
+2025-03-01 10:13:44 INFO  TC002_ChecklistBlockClosingDisabled:150 - all checboxes in checklist section are checked
+2025-03-01 10:13:44 INFO  TC002_ChecklistBlockClosingDisabled:153 - Step 15: Verify that the issue is closed
+2025-03-01 10:13:44 INFO  TC002_ChecklistBlockClosingDisabled:193 - Click on edit button on issue detail form of 367
+2025-03-01 10:13:44 INFO  TC002_ChecklistBlockClosingDisabled:195 - select closed status
+2025-03-01 10:13:45 INFO  TC002_ChecklistBlockClosingDisabled:197 - Click on Submit button
+2025-03-01 10:13:46 INFO  TC002_ChecklistBlockClosingDisabled:156 - Test Passed: Issue is closed after checking all checklist items.
+2025-03-01 10:13:46 INFO  TC002_ChecklistBlockClosingDisabled:163 - === Verifying issue closes after completing the checklist when block issue closing disabled
+2025-03-01 10:13:46 INFO  TC002_ChecklistBlockClosingDisabled:164 - ===== TC002: Verify Issue will close with or without checklist when BlockIssue is disable - Completed Execution =====
+2025-03-01 10:13:51 INFO  TC003_ChecklistBlockClosingEnabled:15 - ===== TC003: Verify Issue cannot close if any checklist item is unchecked when Block Issue is enabled - Start Execution =====
+2025-03-01 10:13:51 INFO  TC003_ChecklistBlockClosingEnabled:24 - Step 1: Login as admin
+2025-03-01 10:13:51 INFO  TC003_ChecklistBlockClosingEnabled:152 - ===== Login - Start Execution =====
+2025-03-01 10:13:51 INFO  TC003_ChecklistBlockClosingEnabled:158 - Step 1: Login with provided credentials
+2025-03-01 10:13:52 INFO  TC003_ChecklistBlockClosingEnabled:163 - Login successful for user: admin
+2025-03-01 10:13:52 INFO  TC003_ChecklistBlockClosingEnabled:168 - === Login Test Completed ===
+2025-03-01 10:13:52 INFO  TC003_ChecklistBlockClosingEnabled:27 - Step 2: Navigate to Checklist plugin → Configuration
+2025-03-01 10:13:54 INFO  TC003_ChecklistBlockClosingEnabled:34 - Step 3: Enable Block Issue Closing and Click on apply
+2025-03-01 10:13:55 INFO  TC003_ChecklistBlockClosingEnabled:43 - === Configure Checklist Plugin - Enabled 'Block Issue Closing' - Method Executed ===
+2025-03-01 10:13:55 INFO  TC003_ChecklistBlockClosingEnabled:49 - === Verify issue should close if no checklist is Created ===
+2025-03-01 10:13:55 INFO  TC003_ChecklistBlockClosingEnabled:61 - Step 4: Navigate to the issue list of a project
+2025-03-01 10:13:57 INFO  TC003_ChecklistBlockClosingEnabled:68 - Step 6: Enter Subject in issue form
+2025-03-01 10:13:57 INFO  TC003_ChecklistBlockClosingEnabled:181 - Click on Add new issue btn
+2025-03-01 10:13:57 INFO  TC003_ChecklistBlockClosingEnabled:183 - Enter subject for issue
+2025-03-01 10:13:58 INFO  TC003_ChecklistBlockClosingEnabled:185 - Click on create btn to create issue
+2025-03-01 10:13:59 INFO  TC003_ChecklistBlockClosingEnabled:73 - Step 4: Attempt to close the issue
+2025-03-01 10:13:59 INFO  TC003_ChecklistBlockClosingEnabled:193 - Click on edit button on issue detail form of 368
+2025-03-01 10:13:59 INFO  TC003_ChecklistBlockClosingEnabled:195 - select closed status
+2025-03-01 10:14:00 INFO  TC003_ChecklistBlockClosingEnabled:197 - Click on Submit button
+2025-03-01 10:14:01 INFO  TC003_ChecklistBlockClosingEnabled:75 - Test Passed: Issue can be closed if NO checklist is created.
+2025-03-01 10:14:01 INFO  TC003_ChecklistBlockClosingEnabled:80 - === Verify issue should close if any checklist is created - Execution completed ===
+2025-03-01 10:14:01 INFO  TC003_ChecklistBlockClosingEnabled:86 - === Verify issue should not close if any checklist item is unchecked ===
+2025-03-01 10:14:01 INFO  TC003_ChecklistBlockClosingEnabled:94 - Step 5: Navigate to the issue list page
+2025-03-01 10:14:01 INFO  TC003_ChecklistBlockClosingEnabled:97 - Step 6: Create issue
+2025-03-01 10:14:01 INFO  TC003_ChecklistBlockClosingEnabled:181 - Click on Add new issue btn
+2025-03-01 10:14:02 INFO  TC003_ChecklistBlockClosingEnabled:183 - Enter subject for issue
+2025-03-01 10:14:02 INFO  TC003_ChecklistBlockClosingEnabled:185 - Click on create btn to create issue
+2025-03-01 10:14:03 INFO  TC003_ChecklistBlockClosingEnabled:101 - Step 7: Add checklist item: EDoUeoLtin
+2025-03-01 10:14:03 INFO  TC003_ChecklistBlockClosingEnabled:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:14:03 INFO  TC003_ChecklistBlockClosingEnabled:213 - Click add button of Checklist Dropdown
+2025-03-01 10:14:04 INFO  TC003_ChecklistBlockClosingEnabled:215 - Enter checklist name in Checklist field
+2025-03-01 10:14:04 INFO  TC003_ChecklistBlockClosingEnabled:217 - Click Enter to create checklist
+2025-03-01 10:14:04 INFO  TC003_ChecklistBlockClosingEnabled:104 - Expected:parent checklist created
+2025-03-01 10:14:04 INFO  TC003_ChecklistBlockClosingEnabled:106 - Step 8: Verify that checklist is not checked
+2025-03-01 10:14:04 INFO  TC003_ChecklistBlockClosingEnabled:108 - Expected: Parent Checklist is not completed
+2025-03-01 10:14:04 INFO  TC003_ChecklistBlockClosingEnabled:110 - Step 9: Attempt to close the issue
+2025-03-01 10:14:04 INFO  TC003_ChecklistBlockClosingEnabled:193 - Click on edit button on issue detail form of 369
+2025-03-01 10:14:05 INFO  TC003_ChecklistBlockClosingEnabled:195 - select closed status
+2025-03-01 10:14:06 INFO  TC003_ChecklistBlockClosingEnabled:197 - Click on Submit button
+2025-03-01 10:14:27 INFO  TC003_ChecklistBlockClosingEnabled:112 - Test Passed: Issue cannot be closed if any checklist item is unchecked.
+2025-03-01 10:14:27 INFO  TC003_ChecklistBlockClosingEnabled:117 - === Verify issue should not close if any checklist item is unchecked - Execution completed ===
+2025-03-01 10:14:27 INFO  TC003_ChecklistBlockClosingEnabled:126 - === Verify issue should close if checklists is checked - Execution Started
+2025-03-01 10:14:27 INFO  TC003_ChecklistBlockClosingEnabled:128 - Step 10: navigate back on issue detail page
+2025-03-01 10:14:27 INFO  TC003_ChecklistBlockClosingEnabled:131 - Step 11: check parentchecklist checklist
+2025-03-01 10:14:28 INFO  TC003_ChecklistBlockClosingEnabled:135 - Step 12: Close the issue after completing checklist
+2025-03-01 10:14:28 INFO  TC003_ChecklistBlockClosingEnabled:193 - Click on edit button on issue detail form of 369
+2025-03-01 10:14:28 INFO  TC003_ChecklistBlockClosingEnabled:195 - select closed status
+2025-03-01 10:14:28 INFO  TC003_ChecklistBlockClosingEnabled:197 - Click on Submit button
+2025-03-01 10:14:29 INFO  TC003_ChecklistBlockClosingEnabled:138 - the issue is successfully closed
+2025-03-01 10:14:29 INFO  TC003_ChecklistBlockClosingEnabled:141 - ✅ Test Passed: Issue is automatically closed after checking all checklist items.
+2025-03-01 10:14:29 INFO  TC003_ChecklistBlockClosingEnabled:146 - === Verify issue should close if checklists is checked - Execution Started
+2025-03-01 10:14:35 INFO  TC004_CURDOperationWithEditIssuePermission:16 - ===== TC004: Verify user with Edit Issue Permission can perform curd operation -Start Execution =====
+2025-03-01 10:14:35 INFO  TC004_CURDOperationWithEditIssuePermission:23 - Step 1: Login with user who have permission edit issue 
+2025-03-01 10:14:35 INFO  TC004_CURDOperationWithEditIssuePermission:152 - ===== Login - Start Execution =====
+2025-03-01 10:14:35 INFO  TC004_CURDOperationWithEditIssuePermission:158 - Step 1: Login with provided credentials
+2025-03-01 10:14:36 INFO  TC004_CURDOperationWithEditIssuePermission:163 - Login successful for user: john
+2025-03-01 10:14:36 INFO  TC004_CURDOperationWithEditIssuePermission:168 - === Login Test Completed ===
+2025-03-01 10:14:36 INFO  TC004_CURDOperationWithEditIssuePermission:26 - Step 2: Go to issue list of project
+2025-03-01 10:14:38 INFO  TC004_CURDOperationWithEditIssuePermission:31 - Step 3: Create Issue
+2025-03-01 10:14:38 INFO  TC004_CURDOperationWithEditIssuePermission:181 - Click on Add new issue btn
+2025-03-01 10:14:38 INFO  TC004_CURDOperationWithEditIssuePermission:183 - Enter subject for issue
+2025-03-01 10:14:39 INFO  TC004_CURDOperationWithEditIssuePermission:185 - Click on create btn to create issue
+2025-03-01 10:14:39 INFO  TC004_CURDOperationWithEditIssuePermission:34 - Step 4: Create two Parent checklists
+2025-03-01 10:14:39 INFO  TC004_CURDOperationWithEditIssuePermission:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:14:40 INFO  TC004_CURDOperationWithEditIssuePermission:213 - Click add button of Checklist Dropdown
+2025-03-01 10:14:41 INFO  TC004_CURDOperationWithEditIssuePermission:215 - Enter checklist name in Checklist field
+2025-03-01 10:14:41 INFO  TC004_CURDOperationWithEditIssuePermission:217 - Click Enter to create checklist
+2025-03-01 10:14:41 INFO  TC004_CURDOperationWithEditIssuePermission:38 - Parent Checklist 'Test' is created
+2025-03-01 10:14:41 INFO  TC004_CURDOperationWithEditIssuePermission:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:14:42 INFO  TC004_CURDOperationWithEditIssuePermission:213 - Click add button of Checklist Dropdown
+2025-03-01 10:14:42 INFO  TC004_CURDOperationWithEditIssuePermission:215 - Enter checklist name in Checklist field
+2025-03-01 10:14:43 INFO  TC004_CURDOperationWithEditIssuePermission:217 - Click Enter to create checklist
+2025-03-01 10:14:43 INFO  TC004_CURDOperationWithEditIssuePermission:42 - Parent Checklist 'JBzYbEeTzZ' is created
+2025-03-01 10:14:43 INFO  TC004_CURDOperationWithEditIssuePermission:45 - Step 5: Create SubChecklists in parent
+2025-03-01 10:14:43 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:14:44 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:14:44 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:14:44 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:14:44 INFO  TC004_CURDOperationWithEditIssuePermission:49 - subchecklist 1 created
+2025-03-01 10:14:44 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:14:45 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:14:45 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:14:46 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:14:46 INFO  TC004_CURDOperationWithEditIssuePermission:53 - subchecklist 2 created
+2025-03-01 10:14:46 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:14:47 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:14:47 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:14:47 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:14:47 INFO  TC004_CURDOperationWithEditIssuePermission:57 - subchecklist 3 created
+2025-03-01 10:14:47 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:14:48 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:14:48 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:14:48 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:14:49 INFO  TC004_CURDOperationWithEditIssuePermission:63 - subchecklist 1 created in 2nd parentchecklist
+2025-03-01 10:14:49 INFO  TC004_CURDOperationWithEditIssuePermission:75 - Verify The duplicate parent checklist and subchecklist should not be created on same issue
+2025-03-01 10:14:49 INFO  TC004_CURDOperationWithEditIssuePermission:77 - Create same name parent checklist
+2025-03-01 10:14:49 INFO  TC004_CURDOperationWithEditIssuePermission:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:14:49 INFO  TC004_CURDOperationWithEditIssuePermission:213 - Click add button of Checklist Dropdown
+2025-03-01 10:14:50 INFO  TC004_CURDOperationWithEditIssuePermission:215 - Enter checklist name in Checklist field
+2025-03-01 10:14:50 INFO  TC004_CURDOperationWithEditIssuePermission:217 - Click Enter to create checklist
+2025-03-01 10:14:50 INFO  TC004_CURDOperationWithEditIssuePermission:82 - Same Checklist is not created
+2025-03-01 10:14:50 INFO  TC004_CURDOperationWithEditIssuePermission:84 - Create same name Subchecklist checklist
+2025-03-01 10:14:50 INFO  TC004_CURDOperationWithEditIssuePermission:224 - Click on three dot of parentchecklist
+2025-03-01 10:14:51 INFO  TC004_CURDOperationWithEditIssuePermission:226 - Click on add subchecklist btn
+2025-03-01 10:14:51 INFO  TC004_CURDOperationWithEditIssuePermission:228 - Enter subchecklist name
+2025-03-01 10:14:51 INFO  TC004_CURDOperationWithEditIssuePermission:230 - Click on Enter button
+2025-03-01 10:14:55 INFO  TC004_CURDOperationWithEditIssuePermission:89 - Same  Sub Checklist is not created in same parentChecklist
+2025-03-01 10:14:55 INFO  TC004_CURDOperationWithEditIssuePermission:101 - Step 9: updated created 1st parent checklist
+2025-03-01 10:14:55 INFO  TC004_CURDOperationWithEditIssuePermission:237 - Click on three dot of parentchecklist
+2025-03-01 10:14:55 INFO  TC004_CURDOperationWithEditIssuePermission:239 - Click edit button
+2025-03-01 10:14:56 INFO  TC004_CURDOperationWithEditIssuePermission:241 - Update checklist name
+2025-03-01 10:14:56 INFO  TC004_CURDOperationWithEditIssuePermission:243 - Click on Enter
+2025-03-01 10:14:56 INFO  TC004_CURDOperationWithEditIssuePermission:105 - 1st parent Checklist is updated
+2025-03-01 10:14:56 INFO  TC004_CURDOperationWithEditIssuePermission:107 - update 1st subChecklist name
+2025-03-01 10:14:58 INFO  TC004_CURDOperationWithEditIssuePermission:121 - Verify Checklist should be delete checklist and subchecklist
+2025-03-01 10:14:58 INFO  TC004_CURDOperationWithEditIssuePermission:123 - Delete sub checklist from 1st parentChecklist
+2025-03-01 10:14:58 INFO  TC004_CURDOperationWithEditIssuePermission:271 - Click on Three Dot of Sub Checklist
+2025-03-01 10:14:59 INFO  TC004_CURDOperationWithEditIssuePermission:273 - Click on Delete button
+2025-03-01 10:14:59 INFO  TC004_CURDOperationWithEditIssuePermission:275 - Click on Confirm button In Delete Cheklist popup
+2025-03-01 10:15:05 INFO  TC004_CURDOperationWithEditIssuePermission:129 - SubChecklist Checklist Deleted Successfully
+2025-03-01 10:15:05 INFO  TC004_CURDOperationWithEditIssuePermission:131 - Delete 2nd parentChecklist
+2025-03-01 10:15:05 INFO  TC004_CURDOperationWithEditIssuePermission:260 - Click on Three Dot of Parent Checklist
+2025-03-01 10:15:06 INFO  TC004_CURDOperationWithEditIssuePermission:262 - Click on Delete button
+2025-03-01 10:15:06 INFO  TC004_CURDOperationWithEditIssuePermission:264 - Click on Confirm button In Delete Checklist popup
+2025-03-01 10:15:10 INFO  TC004_CURDOperationWithEditIssuePermission:135 - parent Checklist Deleted Successfully
+2025-03-01 10:15:10 INFO  TC004_CURDOperationWithEditIssuePermission:142 - Verify user with Edit Issue Permission can perform curd operation
+2025-03-01 10:15:10 INFO  TC004_CURDOperationWithEditIssuePermission:143 - ===== TC004: Verify user with Edit Issue Permission can perform curd operation - Completed Execution =====
+2025-03-01 10:15:16 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:11 - ===== TC006: Verify user without Edit Issue Permission can not Create checklist - Start Execution =====
+2025-03-01 10:15:16 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:20 - Step 1: Login with user who do not have permission edit issue 
+2025-03-01 10:15:16 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:152 - ===== Login - Start Execution =====
+2025-03-01 10:15:16 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:158 - Step 1: Login with provided credentials
+2025-03-01 10:15:17 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:163 - Login successful for user: Sophia
+2025-03-01 10:15:17 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:168 - === Login Test Completed ===
+2025-03-01 10:15:17 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:23 - Step 2: go to issue list page of project
+2025-03-01 10:15:19 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:29 - Step 3: Create issue
+2025-03-01 10:15:19 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:181 - Click on Add new issue btn
+2025-03-01 10:15:20 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:183 - Enter subject for issue
+2025-03-01 10:15:20 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:185 - Click on create btn to create issue
+2025-03-01 10:15:21 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:32 - Step 4: Check Action or three dot button is not clickable
+2025-03-01 10:15:21 INFO  TC005_VerifyWithoutEditPermissionChecklistNotCreated:40 - TC006: Verify user without Edit Issue Permission can not Create checklist-- Completed
+2025-03-01 10:15:28 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:21 - ===== TC005: Verify After closing issue checklist is not modified -Start Execution =====
+2025-03-01 10:15:28 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:28 - Step 1: Login with user who have permission edit issue 
+2025-03-01 10:15:28 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:152 - ===== Login - Start Execution =====
+2025-03-01 10:15:28 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:158 - Step 1: Login with provided credentials
+2025-03-01 10:15:28 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:163 - Login successful for user: john
+2025-03-01 10:15:28 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:168 - === Login Test Completed ===
+2025-03-01 10:15:28 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:31 - Step 2: Go to issue list of a project
+2025-03-01 10:15:30 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:36 - Step 2: Create a issue
+2025-03-01 10:15:30 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:181 - Click on Add new issue btn
+2025-03-01 10:15:31 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:183 - Enter subject for issue
+2025-03-01 10:15:31 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:185 - Click on create btn to create issue
+2025-03-01 10:15:32 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:39 - Step 3: Create 2 Parent checklist
+2025-03-01 10:15:32 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:15:33 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:213 - Click add button of Checklist Dropdown
+2025-03-01 10:15:34 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:215 - Enter checklist name in Checklist field
+2025-03-01 10:15:34 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:217 - Click Enter to create checklist
+2025-03-01 10:15:34 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:15:35 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:213 - Click add button of Checklist Dropdown
+2025-03-01 10:15:35 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:215 - Enter checklist name in Checklist field
+2025-03-01 10:15:35 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:217 - Click Enter to create checklist
+2025-03-01 10:15:36 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:48 - Step 4: Create SubChecklists in parent
+2025-03-01 10:15:36 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:15:36 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:15:37 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:15:37 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:15:37 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:15:38 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:15:38 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:15:39 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:15:39 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:15:39 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:15:40 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:15:40 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:15:40 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:63 - Step 5: create sub checklist in 2nd parent checklist
+2025-03-01 10:15:40 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:224 - Click on three dot of parentchecklist
+2025-03-01 10:15:41 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:226 - Click on add subchecklist btn
+2025-03-01 10:15:41 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:228 - Enter subchecklist name
+2025-03-01 10:15:41 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:230 - Click on Enter button
+2025-03-01 10:15:42 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:69 - step 6: check the parents checkbox
+2025-03-01 10:15:46 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:75 - Step 11: close issue after completing checklist
+2025-03-01 10:15:46 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:193 - Click on edit button on issue detail form of 372
+2025-03-01 10:15:47 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:195 - select closed status
+2025-03-01 10:15:47 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:197 - Click on Submit button
+2025-03-01 10:15:48 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:78 - Step 12: Verifing checkbox threedots are not enabled
+2025-03-01 10:15:50 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:98 - Test passed: Checklist is not editable after closing issue
+2025-03-01 10:15:50 INFO  TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue:105 - ===== TC005: Verify After closing issue checklist is not modified - Execution Completed =====
+2025-03-01 10:15:56 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:16 - ===== TC007: Verify After Selecting input checkbox of parent checklist progress bar 100% completed and subchecklist also completed=====
+2025-03-01 10:15:56 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:23 - Step 1: Login with user who have permission edit issue 
+2025-03-01 10:15:56 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:152 - ===== Login - Start Execution =====
+2025-03-01 10:15:56 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:158 - Step 1: Login with provided credentials
+2025-03-01 10:15:57 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:163 - Login successful for user: john
+2025-03-01 10:15:57 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:168 - === Login Test Completed ===
+2025-03-01 10:15:57 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:26 - Step 2: Go to issue list of project
+2025-03-01 10:15:59 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:31 - Step 3: Enter Subject in issue form and clickToOpenProject on create button
+2025-03-01 10:15:59 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:181 - Click on Add new issue btn
+2025-03-01 10:16:00 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:183 - Enter subject for issue
+2025-03-01 10:16:00 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:185 - Click on create btn to create issue
+2025-03-01 10:16:01 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:34 - Step 4: Create 2 Parent checklist
+2025-03-01 10:16:01 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:16:02 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:213 - Click add button of Checklist Dropdown
+2025-03-01 10:16:02 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:215 - Enter checklist name in Checklist field
+2025-03-01 10:16:02 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:217 - Click Enter to create checklist
+2025-03-01 10:16:02 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:211 - Click on three dot or action icon of Checklist Section on issue detail page
+2025-03-01 10:16:03 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:213 - Click add button of Checklist Dropdown
+2025-03-01 10:16:04 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:215 - Enter checklist name in Checklist field
+2025-03-01 10:16:04 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:217 - Click Enter to create checklist
+2025-03-01 10:16:04 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:41 - Parent checklist are created
+2025-03-01 10:16:04 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:43 - Step 5: Create SubChecklists in parent
+2025-03-01 10:16:04 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:16:05 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:16:05 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:16:05 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:16:06 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:16:06 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:16:07 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:16:07 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:16:07 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:16:08 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:16:08 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:16:08 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:16:09 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:57 - Step 6: create sub checklist in 2nd parent checklist
+2025-03-01 10:16:09 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:16:09 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:16:10 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:16:10 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:16:10 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:224 - Click on three dot of parentchecklist
+2025-03-01 10:16:11 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:226 - Click on add subchecklist btn
+2025-03-01 10:16:11 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:228 - Enter subchecklist name
+2025-03-01 10:16:11 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:230 - Click on Enter button
+2025-03-01 10:16:11 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:65 - step 6: check the parents checkbox
+2025-03-01 10:16:12 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:72 - step 8: check progress bar ofLQcQriSNfW and sub checklist checkbox check
+2025-03-01 10:16:15 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:78 - Test pass: on checking parentchecklist and all subchecklist check boxes are checked
+2025-03-01 10:16:15 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:80 - Step 9: Verify progress bar width 100% of first parent checklist
+2025-03-01 10:16:15 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:82 - Test pass: parent Checklist bar is 100%
+2025-03-01 10:16:15 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:84 - Step 10: Verify all sub checklist dropdown in done stage
+2025-03-01 10:16:16 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:88 - Test pass: Done is selected in All sub checlist dropdowns of parentchecklist
+2025-03-01 10:16:16 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:99 - Verify Checking Subchecklist one by one then progress bar increases
+2025-03-01 10:16:16 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:102 - Step 1: check 1st subchecklist and progress bar should increase 50%
+2025-03-01 10:16:19 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:108 - Test pass- on checking one checklist out of two subcehcklist progess bar increase 50%
+2025-03-01 10:16:19 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:110 - Step 2: After checking 2nd subchecklist progress bar should increase 100%
+2025-03-01 10:16:22 INFO  TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist:116 - Test pass- on checking last sub checklist progess bar increase 100%
+2025-03-01 10:16:27 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:15 - === TC008: Verify that Checklist template created for bug tracker and use on bug issue detail page - Start Execution ===
+2025-03-01 10:16:27 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:17 - Step 1: Login as admin
+2025-03-01 10:16:27 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:152 - ===== Login - Start Execution =====
+2025-03-01 10:16:27 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:158 - Step 1: Login with provided credentials
+2025-03-01 10:16:28 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:163 - Login successful for user: admin
+2025-03-01 10:16:28 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:168 - === Login Test Completed ===
+2025-03-01 10:16:28 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:20 - Step 2: Navigate to Checklist plugin Configuration
+2025-03-01 10:16:30 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:26 - Step 3: Go to Checklist template tab
+2025-03-01 10:16:30 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:42 - Step 4: Click on add new Checklist btn
+2025-03-01 10:16:34 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:83 - Verify Checklist Creation from Template
+2025-03-01 10:16:34 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:85 - Step 5: navigate to issue list page of a project
+2025-03-01 10:16:35 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:90 - Step 6: Create new issue
+2025-03-01 10:16:35 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:181 - Click on Add new issue btn
+2025-03-01 10:16:36 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:183 - Enter subject for issue
+2025-03-01 10:16:36 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:185 - Click on create btn to create issue
+2025-03-01 10:16:37 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:93 - Step 7: Add Checklist from list
+2025-03-01 10:16:39 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:98 - Step 8: Verify Checklist Created or not from template
+2025-03-01 10:16:40 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:108 - Test pass - Checklist are add from template
+2025-03-01 10:16:40 INFO  TC008_CreateChecklistTemplateVerifyAndUseInIssuePage:114 - === TC008: Verify that Checklist template created for bug tracker and use on bug issue detail page -Exection completed ===
