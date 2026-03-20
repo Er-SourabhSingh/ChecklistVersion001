@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pageObjects.*;
 import testBase.BaseClass;
 
-public class TC005_VerifyWithoutEditPermissionChecklistNotCreated extends BaseClass {
+public class TC005_VerifyChecklistNotCreatedWithoutEditPermission extends BaseClass {
     @Test(priority = 1, groups = {"Sanity", "Regression", "Master"})
     public void createChecklistAndSubChecklistWithoutPermission() {
         logger.info("===== TC006: Verify user without Edit Issue Permission can not Create checklist - Start Execution =====");

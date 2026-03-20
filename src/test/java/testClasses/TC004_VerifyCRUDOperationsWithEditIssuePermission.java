@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pageObjects.*;
 import testBase.BaseClass;
 
-public class TC004_CURDOperationWithEditIssuePermission extends BaseClass {
+public class TC004_VerifyCRUDOperationsWithEditIssuePermission extends BaseClass {
     String id_issue;
     String parentChecklist1, parentChecklist2;
     String subChecklist1Parent1, subChecklist2Parent1, subChecklist3Parent1, subChecklist1Parent2;

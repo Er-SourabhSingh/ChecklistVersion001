@@ -9,14 +9,14 @@
         <parameter name="os" value="window"/>
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="testClasses.TC001_ChecklistPluginInstallation"/>
-            <class name="testClasses.TC002_ChecklistBlockClosingDisabled"/>
-            <class name="testClasses.TC003_ChecklistBlockClosingEnabled"/>
-            <class name="testClasses.TC004_CURDOperationWithEditIssuePermission"/>
-            <class name="testClasses.TC005_VerifyWithoutEditPermissionChecklistNotCreated"/>
-            <class name="testClasses.TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue"/>
-            <class name="testClasses.TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist"/>
-            <class name="testClasses.TC008_CreateChecklistTemplateVerifyAndUseInIssuePage"/>
+            <class name="testClasses.TC001_VerifyChecklistPluginInstallatio"/>
+            <class name="testClasses.TC002_VerifyChecklistBlockClosingWhenDisabled"/>
+            <class name="testClasses.TC003_VerifyChecklistBlockClosingWhenEnabled"/>
+            <class name="testClasses.TC004_VerifyCRUDOperationsWithEditIssuePermission"/>
+            <class name="testClasses.TC005_VerifyChecklistNotCreatedWithoutEditPermission"/>
+            <class name="testClasses.TC006_VerifyChecklistNotEditableAfterIssueClosed"/>
+            <class name="testClasses.TC007_VerifyProgressBarUpdateOnChecklistSelectionChange"/>
+            <class name="testClasses.TC008_VerifyChecklistTemplateCreationAndUsage"/>
         </classes>
     </test>
 
@@ -24,28 +24,28 @@
         <parameter name="os" value="window"/>
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="testClasses.TC001_ChecklistPluginInstallation"/>
-            <class name="testClasses.TC002_ChecklistBlockClosingDisabled"/>
-            <class name="testClasses.TC003_ChecklistBlockClosingEnabled"/>
-            <class name="testClasses.TC004_CURDOperationWithEditIssuePermission"/>
-            <class name="testClasses.TC005_VerifyWithoutEditPermissionChecklistNotCreated"/>
-            <class name="testClasses.TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue"/>
-            <class name="testClasses.TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist"/>
-            <class name="testClasses.TC008_CreateChecklistTemplateVerifyAndUseInIssuePage"/>
+            <class name="testClasses.TC001_VerifyChecklistPluginInstallatio"/>
+            <class name="testClasses.TC002_VerifyChecklistBlockClosingWhenDisabled"/>
+            <class name="testClasses.TC003_VerifyChecklistBlockClosingWhenEnabled"/>
+            <class name="testClasses.TC004_VerifyCRUDOperationsWithEditIssuePermission"/>
+            <class name="testClasses.TC005_VerifyChecklistNotCreatedWithoutEditPermission"/>
+            <class name="testClasses.TC006_VerifyChecklistNotEditableAfterIssueClosed"/>
+            <class name="testClasses.TC007_VerifyProgressBarUpdateOnChecklistSelectionChange"/>
+            <class name="testClasses.TC008_VerifyChecklistTemplateCreationAndUsage"/>
         </classes>
     </test>
     <test name="Checklist test-edge">
         <parameter name="os" value="window"/>
         <parameter name="browser" value="edge"/>
         <classes>
-            <class name="testClasses.TC001_ChecklistPluginInstallation"/>
-            <class name="testClasses.TC002_ChecklistBlockClosingDisabled"/>
-            <class name="testClasses.TC003_ChecklistBlockClosingEnabled"/>
-            <class name="testClasses.TC004_CURDOperationWithEditIssuePermission"/>
-            <class name="testClasses.TC005_VerifyWithoutEditPermissionChecklistNotCreated"/>
-            <class name="testClasses.TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue"/>
-            <class name="testClasses.TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist"/>
-            <class name="testClasses.TC008_CreateChecklistTemplateVerifyAndUseInIssuePage"/>
+            <class name="testClasses.TC001_VerifyChecklistPluginInstallatio"/>
+            <class name="testClasses.TC002_VerifyChecklistBlockClosingWhenDisabled"/>
+            <class name="testClasses.TC003_VerifyChecklistBlockClosingWhenEnabled"/>
+            <class name="testClasses.TC004_VerifyCRUDOperationsWithEditIssuePermission"/>
+            <class name="testClasses.TC005_VerifyChecklistNotCreatedWithoutEditPermission"/>
+            <class name="testClasses.TC006_VerifyChecklistNotEditableAfterIssueClosed"/>
+            <class name="testClasses.TC007_VerifyProgressBarUpdateOnChecklistSelectionChange"/>
+            <class name="testClasses.TC008_VerifyChecklistTemplateCreationAndUsage"/>
         </classes>
     </test>
 

@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pageObjects.*;
 import testBase.BaseClass;
 
-public class TC006_ChecklistAndSubChecklistNotEditableAfterClosingIssue extends BaseClass {
+public class TC006_VerifyChecklistNotEditableAfterIssueClosed extends BaseClass {
 
     //create issue add checklist and subChecklist and close issue (checked)
     //Issue is closed, you cannot perform this action

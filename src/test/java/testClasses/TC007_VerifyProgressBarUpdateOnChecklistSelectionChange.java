@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pageObjects.*;
 import testBase.BaseClass;
 
-public class TC007_VerifyProgressbarIncAndDecWhenCompleteAndUnselectChecklist extends BaseClass {
+public class TC007_VerifyProgressBarUpdateOnChecklistSelectionChange extends BaseClass {
 
     String issueId;
     String parentChecklist1, parentChecklist2;

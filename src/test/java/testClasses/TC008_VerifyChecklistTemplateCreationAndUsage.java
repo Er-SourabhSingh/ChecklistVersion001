@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pageObjects.*;
 import testBase.BaseClass;
 
-public class TC008_CreateChecklistTemplateVerifyAndUseInIssuePage extends BaseClass {
+public class TC008_VerifyChecklistTemplateCreationAndUsage extends BaseClass {
     @Test(priority = 1, groups = {"Sanity", "Regression", "Master"})
     public void openChecklistTemplateTab() {
         HomePage homePage = new HomePage(driver);

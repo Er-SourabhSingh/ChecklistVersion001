@@ -1,11 +1,8 @@
 package testClasses;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pageObjects.AdministrationPage;
 import pageObjects.HomePage;
@@ -13,9 +10,8 @@ import pageObjects.PluginsPage;
 import testBase.BaseClass;
 
 import java.time.Duration;
-import java.util.Set;
 
-public class TC001_ChecklistPluginInstallation extends BaseClass {
+public class TC001_VerifyChecklistPluginInstallatio extends BaseClass {
     private HomePage homePage;
     private AdministrationPage administrationPage;
     private PluginsPage pluginsPage;

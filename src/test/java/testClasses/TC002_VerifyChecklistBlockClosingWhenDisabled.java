@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pageObjects.*;
 import testBase.BaseClass;
 
-public class TC002_ChecklistBlockClosingDisabled extends BaseClass {
+public class TC002_VerifyChecklistBlockClosingWhenDisabled extends BaseClass {
 
     @Test(priority = 1, groups = {"Sanity", "Regression", "Master"})
     public void configureChecklistSettings_DisableBlockIssueClosing() {

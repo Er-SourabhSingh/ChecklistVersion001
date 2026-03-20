@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pageObjects.*;
 import testBase.BaseClass;
 
-public class TC003_ChecklistBlockClosingEnabled extends BaseClass {
+public class TC003_VerifyChecklistBlockClosingWhenEnabled extends BaseClass {
 
     String issueId;
     String parentChecklist1;
